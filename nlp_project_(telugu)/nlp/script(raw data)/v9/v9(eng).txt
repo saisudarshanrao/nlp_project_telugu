@@ -1,0 +1,211 @@
+lecture you are talking about xml basics we are talking about this how xml discussing
+how xml allows us to interoperate between between different interacting or cooperating
+system in a or in a distributed system and how it it can it can become a one of the major
+backbone for realizing cloud computing specially in such type of cloud software as a service
+type of cloud right so we were discussing about dtd and xml schema
+xsd so today we will continue that that discussion and on this basics of xml alright so as if
+you remember that we are discussing about xml schema which is primarily defines the
+structure of the xml so xml of a xml of a used data like say i have a xml of a student
+data of a particular batch of student of iit kharagpur it will be a huge volume of data
+now whenever i i want this data say our placement section or our account section for the bank
+or other things so they want to they want to say a some of these data with the external
+agencies right so one way of looking at it that say are a
+part of the schema look at the schema and say are the part of the things with the with
+the external agencies or i want to on the other way in your organization takes the data
+from the other other organization so the first of all it there is a need of ah that schema
+to be to be agreed upon that what should be there so the xml schema place a vital role
+in exchange of information ah helping in interoperability between different repositories
+so a new specification schema is a new specification which came up in two thousand one a to specify
+validation rule of xml right so what we have seen well formed any xml parser per six per
+check whether that it is syntactically correct that is well formed and secondly the schema
+it checks with the schema if available to say that whether it is valid with respect
+to the schema so what we say it is a valid xml document alright so ah so there are w
+three some spec and best practice as you can see so it use pure xml to do this this xml
+schema that are retained in xml schemas are more powerful and dtds can specify things
+like integer type date real thing etcetera and other type of parameters
+they are often use for type validation alright or for relating data base schemas to xml models
+all right so its i can if i know the schema than i create the database and then pump this
+xml data to this database or other way around alright they dont however let you declare
+entities those can be done only in dtd so it it cannot define this in dtds the followings
+ah will see that how schema is equivalent to our dtds like the last dtd we have if have
+if you remember in the xml basics that first class so that same thing is now represented
+as a schema so what we see it is more of xml type document
+and ah in doing so i can handle this schema the same way i handle a xml data alright so
+that thats a beauty of the thing another aspects that the important aspect of xml is xml name
+space right it is a it is a its a very important aspect as as xml allows user defined data
+so you need to be careful on that which type of definition is there and which namespace
+we are looking at if you remember last class we are discussing that if i define a entity
+call table or element call table then i need to specify whether this is a table which type
+of table like i can have a table as we have we have discussed that a furniture or the
+table can be from a ah say table of a what processor or spread said type of things
+so in order to distinguish i have to say say table of furniture type then it has some definition
+table of say what processing has some other definition alright so that means where i will
+define this i will define in the name space so the name space tell me name space basically
+specifies that which what element is there what sort of dealing etcetera etcetera there
+so it is a mechanism for identifying different spaces for xml names alright that is element
+or attribute names the this is a way of identifying different language dialects consisting of
+names that have specific semantics and processing meanings all right the key is one language
+mean a specific security key the as we are talking about table the distinguished from
+the key in another language with maybe a database key
+a right so key maybe some sort of a security key and in some other thing the key what we
+are looking for is more of a database related keys so this two keys are one from database
+schema a database name space and another for this security name space need to be defined
+somewhere so its a may use uses a special xmlns xml name stands for xml name space attribute
+to define this name space right the namespace is given as as a url string alright but the
+url does not reference does not reference anything in particular they maybe nothing
+is there so it it may not refer to something so namespace so mixing language dialogues
+together so namespace let you do this relatively easier like i can have something from the
+something from that like i i i want both the keys all right from the database keys then
+i use the security key for unlocking the database and then user database key for accessing the
+both the keys i am using somewhere someone right and both are in the xml so this xml
+namespace may allow me to do that like i can say that db dot key mean something or somewhere
+something dot some they that sec sec dot security dot something it means a some other key
+so i i i basically specify the type of key is there so that means here if you look at
+ah these are the name space which are a default space right which which define by the w three
+c whereas this name space empty is a math related name space right that is also a predefined
+but i say that the empty is a math related name space now whenever i do anything with
+this particular math related then i say empty double colon mathml and title and so on and
+so forth that means i i say that i am referring these math name space
+so empty prefix indicates the space mathml a different language mathml maybe a totally
+different language and i basically ah able to ah ah use those ah elements of that particular
+name space in my document so this so name space as we sees plays a important role and
+you should be careful and the name space definition are ah should be there so in other words so
+whenever we do like like ah we have seen that mathml that what we do is more of looking
+at the um that particular name space and how to use it and type of things
+another important aspects already we have discussed ah some of these is xml software
+right so as xml document is one is representation textual mode whereas i have a i need to process
+it and type of thing one a first of all i validate well form or not syntactic recurring
+this is one part secondly need to process it for different application etcetera so this
+xml software plays a important role so xml parser reads in xml data checks for
+syntactic possibly with dtd and schema constraint and makes all data available to an application
+there are three generic xml apis or parser apis like one is a sax parser simple api to
+xml event based it is a very popular widely used parser and available mostly in all platform
+another is dom parser document object model or object tree based parser another is jdom
+parser java dom parser right so lots of xml parsers and interface software available in
+different language different operating systems sax based parsers are fast often as fast as
+you can stream data and these are very low bellowed parser and this pretty fast though
+the functionalities less whereas dom is slower more memory intensive
+create in memory version of the entire document and type of things all right and validating
+can be much slower than non validating parser because validating parser need to validate
+whether it is conformed to the schema before doing any processes so these are ah some of
+the quick look at the different parsers like if the sax parser is the available there it
+say event based interface parser reports event whenever it sees a tag attribute ah text node
+unresolved external entities and other programmers attach event handlers to handle
+the events right advantages it is simple to use very fast not doing much before you get
+the tax and data right so its a it is pretty fast low memory footprints so it is low payload
+disadvantages not doing much of the processing so you need to do some of the processing at
+your end not useful if you have dynamically modify document world series in memory so
+it is not useful if you dynamically modify the documents it is memory since you will
+have to do the all the work and put memory of yourself anyway so what it is there it
+is useful when you have a vanilla type xm processing requirement which process and goes
+on with low memory footprint and ready fast and overall pretty simple to use
+whereas the document object model or the dom parser it is a object based interface parser
+generates in memory tree in memory tree or the in memory xml tree corresponding to the
+xml document dom interface identifies method for accessing and modifying the tree right
+so that is the advantage very useful for dynamic modification access to the tree so if there
+is a dynamic modification access to the tree dynamically changing then it is extremely
+useful useful for query that is looking for data and depends on the tree structure so
+querying because if it is a tree structure which plays a role it is useful it is the
+same interface for many programming language c plus plus java that is as such the interface
+wise interpret interoperate with different languages disadvantage can be slow right
+needs to produce the tree and may need lots of memory dom programming interface is a is
+little bit not that state forward so ah it needs to be little complex and needs more
+what we say professional handling of the data here handling of this programming so in case
+of a dom parser the parser this parser interface it goes to this structure of the tree which
+is in maintaining the thing and based on that application the jdom or the java dom it is
+java based object oriented so it is similar to dom with the it is from java ah parser
+generates in memory tree corresponding the document jdom interface has methods for accessing
+and modifying the tree right so where accessing and modifying the tree advantages very useful
+dynamic modification of the tree useful for querying that depends on the tree structured
+so if your query is dependent on the tree structure it is pretty first and useful much
+nicer object oriented programming interface than dom so it is much means better programming
+interface is there these advantage can be slow a new and not
+entirely cooked not so new these days but there are you need some expertise to work
+on it and it works on java ah that is that maybe disadvantage or it may be thoug`ht of
+ah what we say that they you need to know java to work on it may not be a big issue
+there are few more like a dom four j which is java framework for reading writing navigation
+and editing xml right provides access to sax dom jdom interface and other xml entities
+like xslt and other type of interface can do mixed sax dom parsing all right and it
+has some of the some advantages like good of all lots of goodies and all rolled into
+one things in java package can make sax and dom parser apache open source license means
+free use and so and so forth there are disadvantages its again java only
+and maybe concerns for open source nature of things like that some of the things but
+nevertheless it is a there are some other xml parser like xerces and xml toolkit xml
+for c plus and etcetera etcetera so rather there are a good number of xml parser ah to
+not only ah well formed and validating also try to ah do more complex operations ah in
+our in in in basically in when we are doing interoperating in some distributed system
+like cloud so there are ah some of the benchmark like how the parser will be there whether
+ah regarding speed memory and stream processing there are few ah parser benchmarks
+xml processing another important aspect is xslt right so extensible style sheet language
+right so how xml to be represented is given by this style sheet right so in some other
+sense i can say that xml along with the styling allows me to represent it or displayed right
+so sometimes xml plus xslt is something equivalent to html type of things like not that all power
+wise but its characteristics wise so exestensee ah xslt extensible style sheet language is
+primarily used for transformation type of things right or its more of a transformation
+type of things xml language for processing xml data does tree transformation takes xml
+and xslt style sheet as input and produce a new xml document with a different structure
+and type of things so as it is xslt so i can basically do some
+sort of a filtering operations on the xslt right so it takes the xml data does some sort
+of ah process it xslt and generate a another xml data on the other hand and produces a
+new xml document with different structure and so on and so forth so advantages of course
+very large ah very useful for tree transformations so if i want to transform the tree or say
+i have a tree xml tree and for my application i require want to use a subtree of it all
+right so how can i do it so i i can have this filtering using this xslt and then filter
+this things to the ah other part so disadvantage can be slow for large document
+or style sheets right it can be disadvantages and can we slow can be difficult to debug
+style sheet poor error detection etcetera so that another is that not so versatile in
+error detection so now if you look at our big picture so xml data is coming right so
+we have now a style sheet with a it requires again another xml parser and then it goes
+to this processor processing unit and we have this different tree
+so i have a tree here and i can have a part of the tree out here all right so taking these
+as input the data out is a xml ah which is which is based on the xslt has been filtered
+for the and generated new xml xml messaging use xml as the format for sending messages
+between the systems advantages common syntax self describing easier to parse can use common
+existing transport mechanism to move the xml data like https etcetera
+so xml needs a carrier protocol to transfer the data so i can we can use any transport
+data transport mechanism like transport we should not mix up this transport with our
+ah transport layer protocols so it is it is a transport mechanisms means un lining the
+network and by which you can do that http https smtp and so on and so forth and there
+are some requirement and requirements and disadvantages of the same this type of xml
+messaging and there are common ah messaging models so a using a http a http to protocol
+for xml messages in other since this xml messages are if you see this is a post at said that
+this this portion of the thing is a standard protocol http protocol mechanisms
+where as it is the xml message or the xml document is embedded into the things so that
+it is a envelope which is the http protocol itself and then it is embedded into the stuff
+so there are some of the standards for message format like xml rpc ah so a very simple way
+of encoding function method calls call name and passed in the things so it is one of the
+message format is soap simple object access protocol primarily used in web services in
+a service oriented architecture so more complex wrapper which lets you specify schemas for
+interface more complex rules for handling and proxying messages and so and so forth
+so that can be done through this type of soap message format and if you see again the xml
+messaging plus processing xml is a universal format for data exchange right so i have this
+application with soap api and from here i can basically two different type of supplier
+so interact with different type of supplier though at the backbone the overall its the
+same xml applications which interacts with different other applications over http so
+it is a soap message which is which piggyback on http and carried over as a as a payload
+of this http and deliver at the things the other entities extracts and ah and deliver
+to that particular applications which is running so if we look at this family of xml all right
+so if you look at this is this middle portion is the cores of the things like we have a
+xml xslt xsl ah x path x pointer and so forth we have not covered ah or we have not discussed
+on all the component it is first of all that amount of time is not there and secondly we
+have we want to have a fill that how this allows me or what are the typical properties
+of xml is there those who are interested in a more looking at the xml can follow any standard
+book for event w three see a school tutorial and try to do some small projects of the things
+nevertheless so we have this sort of apis these are different styling these are different
+protocols web services application areas where the xml feed chain and there can be different
+other type of things so what it tries to show the versatile nature of this xml and its companion
+technologies this xml and this community plays a vital role in realizing this distributed
+structure of systems right so i have distributed systems which are which are talking to each
+other and doing thats why i have so messaging wsdl messaging wsdl udti which are primarily
+xml based and so and we have different type of other namespaces like mathml and there
+are svg for generating graphics and type of things so this shows this xml is a is a versatile
+in nature in allowing data transformation and if i want to represent this data then
+i require some styling either through xslt or some xld some stylesheets which allows
+me to represent the data and type of things i even i can generate a html file which can
+be viewed in to the viewed at the other end right
+so we basically have what we had is a basic very basic introductory things or xml try
+to see that what are the major components of the xml and how this component help us
+in realizing interoperability if you look at the cloud or any distributed systems where
+a the sort of interact interfaces interacting or interoperability needs are there xml is
+the de facto language to to realize this so with this we will conclude today for our this
+basics of xml thank you

@@ -1,0 +1,307 @@
+on basic or foundation of these cloud computing and then go into the more detail so as we
+were discussing yesterday or in the last class rather that that n i s t defined ah cloud
+computing how n i s t define the cloud computing model as a enabling ubiquitous convenient
+on demand network access to a shared pool of configurable computing resources this is
+point to be noted so that means there is a shared pool of resource
+which can be configured as per demand so that can be rapidly provision that means ah it
+can be provisions to realize something and released or when i dont require it can be
+released with minimal management effort or service provider interaction that means whenever
+a customer or the user or the ah service consumer ah needs it can provision whenever it does
+he ah it the no requirement is there it can de provisioned and thats exactly the pay as
+you go model if you look at the essential characteristics
+as we have already seen some of the things they what we required it is a on demand cell
+surface that is a service which is on demand and ah its a on demand cell surface broad
+network access this is important thing that means i should have a appropriate network
+access because ah resources are distributed they are at different geographical location
+they are being pooled and provision to the user there is another thing is the resource
+pooling that means i can basically pooled resources into the and that that gives us
+a a multi tenant model with different physical and virtual resource dynamical assign like
+i i a ah from the same service provider i want to have a say windows system windows
+subsystem with so many hardware specification and this are the different software specificationfrom
+the same service providers somebody is having say a a linux say ubuntu subsystem ah and
+one two realize those resources on the things so this sort of resource pooling and management
+of the resources ah is important aspects of the thing there is another characteristics
+any type of services are measured services right in a say that means i pay for what i
+use so whatever i am using is being measured ah so this is a measured services and another
+important aspects is rapid elasticity that means i can go up down as and when requirement
+is there like a if i take a example like i i am running a simulation and i need a something
+ah a four g b sort of ram and when it is ah when we are when while running the things
+more data comes or more application load is there i want to increase the ram to four g
+b to eight g b right so i need to i need to ah for some some portion
+of the time i need to have a ah bring more resources so that should i i will be able
+to rapidly provisioning and not only that this type of elasticity is should be there
+it should be i can go up come down when i requirement is there so that should be one
+of the important characteristics of property of cloud there are several ah common characteristics
+ah which are which are what we say that typically a cloud compute exact form or cloud service
+provider so provide one is as we have discussed massive scale up and down resilient computing
+homogeneity like i dont care that how weather at the back in that heterogeneous resources
+are there i want to have a homogeneous thing typical one characteristics is that they are
+usually the resources many geographically are geographically ah spread or geographically
+geographic distribution one major aspect is virtualization so i virtualize
+the think so i i virtaulize a windows over a linux say there is a that sort of thing
+or i have a infrastructure over there virtaulize several ah virtual machines and work on it
+i can have different applications i work on it and type of things so that is one important
+aspect rather in subsequent lectures we will look little bit more on this virtualization
+aspect there is a important aspect of service orientation so it is it is the services which
+are being ah communicating with the which other rather than its a data driven so it
+is not data orientation more of a service orientation there can be different type of
+services so if we we will see that in a service oriented architecture
+so ah like ah we we can have a service service provider there can be a service consumer and
+there is a registry service or what we say somewhere some catalogue so the consumer talks
+to the or look at look up to the registry and find that what are the services are there
+appropriately collect to the ah provider to ah access the service right and service provider
+whenever it is having more or this is different service provider its a basically a bunch of
+represent a bunch of service provider jump bunch of consumer and its a distributed but
+some of logically centralized ah ah registry or catalogue and this service provider with
+basically upload update the registry in the things it is as if ah i can have a analogy
+like this is the telephone directory type of thing where i have different type of yellow
+pages and other thing and if whenever i required some to something to search starting from
+a particular person to particular type of activity like i want to look for a ah say
+home delivery services so i look at the things are over the home
+delivery services and then connect to that thing by a telephone call right so this is
+somewhere a catalogue or registry service consume or service provider and consumer this
+over all its a some sort of a service oriented architecture right so that will again we will
+see little bit more that what are the different type of service oriented so one of the major
+aspects of this cloud computing is to realize service oriented architecture
+there is it may it it usually have a low cost software in the sense like at as this is being
+used and it is a multi tenant type of things the overall costing of the software comes
+down for the consumer end right and expected to give a advance security there are different
+concerned about security we will discuss some of the things but expect to have a constant
+on the security it is not only security in terms of whether somebody is bridging the
+security on things some of the things like i say that the if the data is in cloud it
+is expected that the data is not lost right but if it is ah if it is ah it is in my own
+system so it is my responsibility to set the system
+ah keep the ah system up and things similarly some application i am say a mail application
+on the cloud so it is expected that this is more stable and type of things whereas if
+i am having my own mail server and mail relay etcetera then it is my maintenance and it
+goes on things so there are different aspects of the things so it it is like it is supposed
+to provide a advance security features with respect to access control with respect to
+different resilient or blocking of different attach in a with respect to data reservation
+or no data lost type of situation and type of things right so if you look at the typical
+cloud service model we will go into more details ah subsequently so one as we immediately look
+at is the software as a service right so what we see the capability to provide consumer
+to use providers application running on cloud infrastructure
+like we are nowadays using different type of things different type of aspects like say
+what processing a spread sheet on on the internet right even there are different if you those
+who are use to scientific ah technical writing etcetera using tools likely i take etcetera
+we are having things called which are on the web so that means those those applications
+are somewhere yields on the cloud ah and we we we want to hook into that application and
+then use those application and get my data either stored in my own the local machine
+or at times the data is stored in some other data service provider right
+so that means what you require is a basic minimal way of interfacing to the external
+cloud right and gets that the software as a service now the softwares must be running
+as some some system or must be compiling or compiled on some platform as a user i am not
+bothered about it right and what i say that for using the system what i require a basic
+interface may be a in sort of a web browser like say mozilla internet explorer chrome
+and etcetera etcetera so and and i have a basic and i have the knowledge
+to how the use the software it can be a what processer it can be a scientific simulator
+it can be a text processing it can be a some other type of applications right a mathematical
+application or type of things so ah so this is as a software as a service so what i am
+getting the service i am getting as a software that so that makes lot of convenience at my
+end i dont have to purchase that software neither i have to maintain the updates neither
+i have to look at that how much my hardware requirement to run the software in some of
+the software there may be hardware requirement much higher but my application is not that
+large so my i so that scaling of the software becomes the responsibility
+so this is the software as a service another thing is that infrastructure as a service
+so that means i i want to realize some infrastructure at my end right so that is that is the infrastructure
+as a as a service like i want to realize a machine of particular specification like i
+say it should be a it should have some four g b ram so much megahertz processor and so
+much hard disk right so this is a infrastructure as if i am realizing the whole system on my
+desk right so that if i again if i what i have i can have different ah a simple ah and
+i can i can basically have this infrastructure as i want today i require a four g b ram tomorrow
+i require a sixty four g b ram for some work next day i require a two g b ram i dont know
+i want to only to some basic operation so usually when i have this type of very ah
+variable requirements or type of things i can basically provision that the infrastructure
+so there are provider who provides infrastructure as a service right in between this two ah
+i a s infrastructure as a service and software as a service we have another stuff call platform
+as a service right so it provides a platform for some development work some using some
+test cases and other thing so i i require so one is that software i am using another
+things is that i have the infrastructure i load ways i or the row ways can come with
+the infrastructure i load other application then run and test and other things otherwise
+i require that platform as a service right so there are service provider who provide
+platform as a service type of models so this allows me to use as a platform so these are
+three very prominent ah what we say ah service model of cloud there are other various service
+model rather like data as a service which which keep the data even people are talking
+about whether i can have something like science as a service like i give different scientific
+tools etcetera and then you work on on a particular particular revenue on the type of things and
+looking other things or what we say it is a something anything as a service or x a a
+s type of things it typical cloud philosophy wants to make this x e is a realization anything
+as a service type of model so ah if we if we look at this over all step
+so what we have at the below is the basic infrastructure this is and over that this
+is platform as a service and over there there are software as a services right and there
+can be different type of infrastructure like we can say that virtual machine many be one
+infrastructure servers storage load balancer network these are the different type of infrastructures
+right and there can be different other type of infrastructure as you can feel so i can
+have external devices and other things has a infrastructure and type of things which
+can be ah pulled in over that when we look at the platform as a service there is more
+of a something execution platform on runtime database is web server development tool development
+platform there can be some sort of a cell box type of environment and type of things
+so these are a more as a platform as a service and over that i have a saas or the software
+as a service which basically realize the ah this softwares likes there can be s r m email
+different virtual desktop there are different games and so on things which runs over the
+over and above the this cloud infrastructure and paas now how where the so this this part
+is more of the cloud provider end so some provider may provide saas some may provide
+paas some may provide saas ah i a s or what we say infrastructure service some may provide
+a mix of the things right but if we look at the client perspective so how client access
+it so the ah the best or the what we say the universal way is the web browser right or
+what we say web client there are other things like an i can have mobile apps right which
+can access this type of a thing i even there are thin clients the terminal emulator and
+different type of other thing so these are the interface by which the client
+interface to the to this cloud right now if if we with this thing if we want to look at
+the different type of deployment models right so what are the different type of deploy how
+to realize those cloud or type of clouds right one is the private cloud i build a cloud and
+i use it like in our i i t kharagpur with we indigenously with open source systems we
+build a cloud called meghamala so it is name of the cloud is meghamala its a very not so
+large cloud but is privately build on over source system primarily used by researchers
+ah both faculty and research scholars for mostly a infrastructure as a service over
+the things over that we try to give other services like
+data services or other type of big data services and type of things but primarily its a infrastructure
+as a service so its a private cloud it is accessible within the i i t kharagpur network
+itself and not not accessible outside the network right and it it has a different charging
+model like as it is a institute funded infrastructure ah so we dont charge anything on things there
+can be others other end a what we say public cloud right so that means which is public
+ah so at different type of things i can have public clouds as infrastructure i can have
+five bit clouds as like amazon ah clouds are for infrastructure for a one of the popular
+example there can be platform as a service type of cloud like what we look at some sort
+of a what we say that microsoft azure or we can have things like software as a service
+type of cloud like google doc tools spreadsheets type of things some of the examples
+so these are the public clouds right there are another things what i can have a hybrid
+cloud right so it is a mix of things of public and private as such there is a typical category
+of cloud which is a what we say community cloud so it is something semi semi public
+semi private type of things like i can have ah it is shared by several organization and
+support specific goals or what we say coat un coat it say some sort of a likeminded or
+like like i means same same type of goal achieving organization
+like i say bank bank sector may have a banking cloud right so that core banking things whatever
+they exchange with the things in our county like r b i may be the nodal agency to handle
+or the things over that there is a cloud i can have a institutional cloud like what we
+have say government funded institutional cloud which can work on the things i can have there
+are things like if i working with some other type of data like bank etcetera like one like
+what we work on in the spatial data we can have a jeo special cloud which with the type
+of things so this is addressed to a community may not
+be a not in a one organization multiple organization but it it has some purpose to do right so
+this is a community cloud now i can have a hybrid or the things some private some public
+some community or public private only and type of things right so these are the different
+type of what we say deployment models of the cloud now ah though we will go little ah more
+differ into the things is subsequent lectures but we can do see that the cloud and this
+virtualization somewhat come hand in hand right so ah if we if we look at this picture
+which we say there virtualized or virtualization stack so we have a bare metal of the hardware
+at the end right over that i require a something a middleware which allows me to create different
+virtual things so what we are trying to see like ah what
+we are saying that we are having different hardware right it can be it can be different
+systems across different network etcetera and connected through different sort of network
+etcetera over that what i i am end goal is to realize different virtual machine like
+i can say this is a sixteen g b machine of of running windows this is a maybe sixty four
+g b machine ram with running something some orient of linux etcetera right now this collectively
+being realized to make this type of different virtual machines right so i require something
+in between what we say v m m or virtual machine monitor or hyper visor
+so this hyper visor basically allows me to emulate this different type of machines so
+if we look at the virtualization stack so one or virtualization how how i want to what
+we want to virtualize one is that virtual works basis i can have different virtual works
+basis and abstraction of an execution environment that can be made dynamically available to
+the authorized clients by using well defined protocol so i i suppose for my particular
+project i require a environment for this may be development environment visualization environment
+computing environment and then i i generate dynamically or the organization generate dynamically
+to the for the team to work on it right and that may be a short term project of fourteen
+days or something and it basically realized purchasing a whole ah stuff for that fourteen
+days maybe a costly affair but if i provision that from external world on a pay you or from
+public cloud and maybe a solution right so there is only another thing aspect is the
+virtual machine on to realize into the into different virtual machines and then there
+are there can be different category of virtual machines which can be used by the user like
+as a talking about meghamala we realize different category of virtual machines with poetically
+basically three category of virtual machines and whenever use a needs come we provision
+it based on the availability of the things and it can provide infrastructure a p i plug
+ins to hardware support infrastructure etcetera so it can provide it provides a p i to connect
+to the different infrastructure so we will basically look at visualization there are
+different aspect of virtualization so that we will look at in the subsequent lectures
+so if we just look at this whatever you are talking about so virtual machine technology
+allows multiple virtual machine to run a single physical machine
+so this is my hardware so it is not that single physical machine means not only one machine
+there can be couple of machine clubbed together and realized like i say that i have ten four
+g b systems or ah so that i can have some effectively forty g b things and then i realize
+say three or two sixteen g b and one eight g b actually you cannot do all division there
+are some some requirement to for for this virtualize to happen so it forty g b can you
+break into two sixteen g b and so i realize two sixteen g b machine using underlining
+this hardware right so so what we require is one is the virtual machine monitor which
+allows me to ah emulate this hardware and i can have different virtual machines over
+the things and there are a concept of guest ways which resize on the things right
+so there the guest ways here may be linux there can be other guest ways there can be
+other guest ways and different type of things and this applications running on the things
+are different and this virtual machine by may be used by somebody at some geographical
+location this virtual machine somebody at the some other geographical location and so
+on and so forth so everybody for individual consumer its say its say machine for its purpose
+so there are different category of virtualization we will see the things like a performance
+for virtualization close to row physical performance we will see that why and how and later on
+so ah some of the popular virtual machine monitor or hypervisor is one is xen another
+is v m ware so virtualization in general there are advantages
+of the virtual machines like run operating system where the physical hardware is unavailable
+easier to create new machine backup machine etcetera software testing using clean install
+etcetera there are of ah number of things which are which can be realized with this
+virtual machine so ah so there are there are issues of cloud sourcing when we are why why
+it is becoming important first of all high scale low cost providers so i can have lot
+of resources as a think so economy party play a ah important role right when you get the
+much cheaper services on the things etcetera we will see in a separate lecture that whether
+ah whether this ah economy is always what what this cloud economics of cloud says and
+whether always it is a beneficial or hm we need to think about there when the things
+are beneficial etcetera anytime anyplace access via web browser so
+it is my whole computing my hold services whatever i am exercising is anytime anyplace
+type of services right so i dont bother about that where the services un leverage and type
+of things and there are rapid scalability incremental cost and load sharing so there
+is a scalability is pretty high right i can rapidly scale scalable that is ah cant forget
+need to focus on local i ts so that the whatever your infrastructure is there that need to
+be looked into there are some of the serious concerns also whenever you are leveraging
+or resources from a things one major concern is performance reliability and service level
+agreements right what will be the performance what will be the reliability the service is
+always on and type of things and there are issues of service reliable agreements like
+i i signs some agreement with the things whether these those are honoured not honoured and
+type of things there are issues of concern of data and service
+parameters like i say concern of the data my my data is in cloud even i write a later
+the later is in the cloud i write a report there is in the cloud then i am concerned
+that whether this data is secured should not be tampered and so far and another issue is
+there service parameter this is also there like ah how do they say that the ah availability
+is ninety percent or ninety five percent how to look at those parameter how to audit that
+that whatever i looked for is given by the things right
+there are issues or application features and choices so its its its ah sometimes we say
+that its provides a application which is fix all right whether i i dont have a customized
+choice of the thing whether there a issues there whether i can have or not there issues
+of interaction between cloud providers right so there are one provider purchasing services
+from the thing like it may be a infrastructure provider purchasing some of the infrastructure
+like hardware etcetera from a data provider and so on and so forth
+no standard or like issue of standardization of the a p is like whether it is a soap or
+rest type of services when we look at the service oriented architecture and of course
+issues of security privacy security compliance trust competence risk these are the ah major
+concern whenever we purchase this sort of a service especially it is critical when we
+purchase those things for our some of the machine critical or my day today operational
+requirement cloud storage why why we keep it separate because it is place a ah pretty
+important role we will if time permits we will look at that some of the storage aspects
+but it it say it say one of the important factor because data is extremely important
+for the for the consumer or for the service consumer or the users right
+so allow data stored remotely to be temporarily cached on the desktop computers mobile phones
+or other internet linked device so you you can have a sinking with the data also many
+of us are using this sort of services ah for ah putting our data as a service so there
+are ah things like amazon e c two s s three are well known examples where where this data
+services are there some of the advantages just to re iterate one is the lower computer
+cost right ah one major aspects ah there is low i should say not computer cost lower computing
+cost improved performance i expect that the overall
+performance will be improved because i am purchasing something as a higher price reduced
+software of course like i dont have to purchase separate software etcetera instance software
+updates if there is a update this is getting updated improve document format compatibility
+if there are interoperability you should be a prop ah better you addressed
+unlimited theoretically unlimited storage i pay and i get the storage increase data
+reliability i it is stored in distributed things with proper redundancy etcetera so
+it is expected the data it will be high universe and information access i can access information
+at every point latest version of the systems and software available easier group collaboration
+when you are having one data different applications device independent i can access from different
+type of devices required say there are obviously some these are all good points there are always
+some pit faults or some concerns or disadvantages like requires a constant internet connection
+you are disconnected your gone does not work well with low speed connection
+that is again network connectivity feature might be limited right so some of the things
+i may not get what i get on a on a customized personal thing at can be slow at time because
+this is provisioning etcetera finally takes time stored data i am really we are nearly
+concerned about whether how securities stored data can be lost if there is a crash on the
+things or the provider goes out of the things that there may be chance of loss for cloud
+is not truly a high performance computing systems so we so if we think that cloud will
+provide ah high performance with may not provide there h p c type of things and there are several
+general concept or connectivity of a p i s having particular database connectivity where
+the database will run etcetera so what will do we will stop here and for
+now and then we will look at the different architecture and in my in our sub subsequent
+lectures thank you

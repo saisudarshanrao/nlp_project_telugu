@@ -1,0 +1,285 @@
+lecture we are discussing about this client server traditional client server paradigm
+and what this cloud is offering from the service orientation point of view we will continue
+that discussion with the things so what we have in case of a client server model and
+we have a server and we have several clients which are connecting to this server right
+so we have several clients which are connecting to this particular server so this server and
+client logically or physically can be on the same machine the same machine can be client
+server different machine can the machine can be one client one server a client can ats
+a server for some other things etcetera
+so what what we do we have for every server things we have a client like if i have a ftp
+client server so what we have ftpd daemon in a particular linux flavour and there is
+a ftp client so ftp client look for a ftp server so in this case what to try to realize
+a server basically the server process waits on a particular port alright so what we does
+like say if i have ftp or telnet similarly telnet d if the telnet daemon server then
+telnet or very popular thing httpd then i have http server so these all these things
+are a way particular port that means a in the in the server machine say for say htdp
+so a particular in the server thing so in the port eighty that logical port eighty the
+http daemon is listening so from somewhere from a client or http client that is any of
+the browser it it basically same say request to the things if the server is speed connects
+to the things and the connects in the rest of this right
+so server does a always listening to a particular port is any client is there whenever the client
+needs a service it basically hook into that port and it goes on things and we have seen
+that two type of that can be a concurrent server will give service is concurrently or
+this there can be a iterative server one after another but all this things i require a one
+component of this whole plus is like for http httpd and http etcetera to talk to each other
+so somewhat it is more strongly bound but never the less its solves many of our purposes
+and it is serving and we will be serving and it diffract to standard in any type of sort
+of application where data and application communicates with each other now client server
+at its a consists of one or more load balancing server send by the things client and servers
+exchange messages by request response client is often may be a thin or a machine with low
+computational capability not necessarily usably server can be load balanced cluster or a standalone
+machine etcetera like a if you think about out http server using the server is much stronger
+and fatter systems where as your client anything from your mobile device to laptops to or some
+any type of devices which can be there but never the less it can be some higher in devices
+also so it basically tries to emulate a three type of architecture one is a presentation
+layer at the top level then logical layer and the data layer at the bottom level so
+this try to realize a three tier architecture and if we and this is a very popular things
+what we are which we are use to and if we try to look at that little bit comparison
+with the things why what is the thing what is the need of cloud computing or where where
+it is different
+so in case of a client server simple service models server service clients request in case
+of a clouds variety of complex service models like iaas paas saas can be provided so its
+a so every service in of a client server i should have a sever program where the client
+connect where in case of a cloud we have different type of xas type of service models so the
+way of looking at the service model its is different may or may not be load balanced
+in case of a client server where as usually this cloud are load balanced that is one of
+the major aspects what we want to do scalable to some extent in a cluster environment so
+if the things are running over cluster this is scalable and in case of a cloud it is theoretically
+infinite scalable so anything can be there the most important thing is there is no concept
+of virtualization right in case of a client server and the virtualization is our main
+concept or the core concept in cloud computing
+so these are some of the things and what we try to show or propose that this cloud computing
+able to is able to do much more justification or much more better utilization of the whole
+resources and able to cater a large number of stakeholders the picture is not the pretty
+clear but so just divide the things one is that at the bottom is the infrastructure of
+the operational operational systems like you see that compute network storage facilities
+and middle where is the different type of services right so i have infrastructure thing
+so we want to have little bit broader view of this of this cloud computing cloud services
+so this are our core bare metal so layer is realization of the services right i have iaas
+paas or saas type of services this services you use to have some business processes to
+run so it is not the services not only the services i want something business my business
+was is need to be realize so i i work use the services to run different business processes
+so this is business processes and i can have business process as a service to the thing
+theses there is a presentation layer what we can have directly some interfaces with
+the users or i can have some api which allows me to connect to the connect to these different
+service model like we are use to different type of apis for different service provider
+is that i use that apis to connect to the things so i dont i expose myself as a service
+provider this giving this api so or i can have customized user some applications or
+what we say some particular interfaces to connect to the things now whole thing should
+have a integration platform right it is integration not that very strongly integration platform
+that is integration of the hardware it require some sort of a particular architectural point
+of view where i wants to have a service integration then i should have a orchestration engine
+some sort of a execution three type of thing right
+so service execution tre so integration then i whenever i do that then we require that
+some what is the quality of servicing doing all those things whether i can operate at
+the appropriate level of service what we want to confer there is a then there is a decimation
+of informations or type of things right what sort of what services are provided how to
+hooking to the things that is information type of things and finally i should have a
+overall governance this governance may be management of the infrastructure or the management
+of the whole system the governance we have also have legal issues and policies implemented
+so that the legally valid as per the federal laws and regulations
+so this nexa governance and we basically realize the those things we having different services
+i am not repeating this because we have seen this in several in other form in several side
+so finally we we are using this different service model so will just see a little bit
+again relook into this service model little bit in a little more detail saas paas and
+iaas like one may be the sometimes they have a we used to have a studies in analogy with
+our transportation like roads are the infrastructure cars and trucks are the platforms which carries
+the thing and goods and people might be considered at the software or information in the in a
+technical terms or technical paradigm
+so as if i have this infrastructure over that i have different platform and this different
+applications are running over the things if we look look at the point of our cloud computing
+paradigm so software as a service is this definition i am not repeating this its a software
+that require over the internet use as a pay as you go model and there is a then it can
+you can basically search and that service for things characteristics web access commercial
+software it is one of the typical features software is managed from some sort of a logically
+centralized location so it may be distributed and deployment distributed fashion but the
+management is logically some sort of a centralize location right i i say that i give a some
+sort of web as a service for computational support for different simulation right so
+mathematical simulation etcetera so this over all simulation platform may be running on
+heterogeneous different platforms right may be on a distributed systems but the overall
+management is logically centralize type of things software is delivered in a one too
+many model so it is to one too many users not required to handle upgrades etcetera there
+is one of the features application programming interface allow for integration between different
+pieces of software or apis allows us to amalgamate or integrate different software to realize
+a larger thing where it is extremely useful or may be useful is application where there
+is a significant interplay between organization and outside work like e mail a letter campaign
+software like
+so there is a there is lot of there is a lot of interface between the things application
+that have a need for web and mobile access right software that is only to be use for
+a short term needs i do not i dont require something always but i only want to use for
+a short term needs like i want to execute i want i want to run a particular examination
+or particular retinitis for interview and i want to run that thing for a particular
+thing there is for not that day to day i am running the things so neither i want to deploy
+those everything on the thing so i have a somewhat somewhere i can get the services
+and i i realize a services over the say desktop on a particular lab and execute that examination
+and then forget that thing for the time being
+so software where demand spikes significantly like tax billing etcetera right so the demands
+are have spikes right like usually the tax submission or the tax feelings has a particular
+time window during the years and that time the demands increases otherwise slows down
+and that is important then there are these are some of the popular or will use thing
+that sales force crm and type of things applications where saas may not be the best option right
+the other side of the story application where extremely fast processing or real time data
+is used right
+so where because what we have see in that cloud computing may not be or cannot be considered
+as a high performance real type of operation there can be delay as a times it may be slow
+down and type of things so it applications where extremely first operations for real
+time data is needed is may not be the things may be say for example disasters management
+etcetera so i cannot leave or a something and which takes time and type of things so
+i too have something which is more concrete even i am provisioning its should be dedicated
+with a particular qas maintenance application where legislation and other regulation does
+not permit data being hosted externally like i can say that the my institutional work or
+in our institute say with that organization can say that all for a organization the organization
+related communication over the mail should be on the organization mail server or using
+the organizationally e mail id it cannot be on a public type of things so because i that
+is the legal provision in the data where i dont know like to see application where an
+existing on on premise solution fulfills all the organizations needs it may be there that
+already you have a legacy applications which is fulfilling your organization need in may
+not be want to shift similarly for platform as a service it brings benefits of saas bought
+over the application but over a software development platform so it provides the things it is bring
+software delivered over the web it is a platform for creation of the software deliver of the
+things
+so its gives a platform to develop the develop your own system etcetera so there are several
+characteristics like services to develop deploy host maintain in the same integrated development
+environment web based user interface to create tools to create modify test deploy different
+user interface and other things multi tenant architecture where multiple concurrent user
+utilize the same deployment application or built in scalability is there integration
+with web services support for development team collaboration that is important then
+i have a different a development team which is spread over several regions may be several
+countries and want to have a common development platform and want to work on it that it gives
+a good solution and tools to handle billing subscription management etcetera are other
+aspects of the things that how do i manage the whole
+so where is extremely useful or very useful is that especially useful in the situation
+where multiple developers will be working on development project that we have discussing
+where other external parties needs interact with the development processes etcetera so
+i have a development teams which is the core in my in my in our organization office i have
+development team at the customer premises which which interact with the day to day basis
+and there may be other subsequent development team in head office and type of things so
+when we want to coordinate between these two this platform may be plat form is the service
+may be a ideal base for paas is useful where developers wish to automate testing and development
+so if you want to automate then this are the things where you put something which is being
+checked popularity for agile software development a group of software development methodology
+based on iterative and incremental development also in this case is also what we find that
+paas will be extremely useful so some of the popular paas and type of things are one is
+azure and google app engine or other several stuff where people are using for developing
+there applications then making it is webenabled and available over webs scenarios where paas
+may not be its ideal so it is may not be the good choice where application needs to be
+highly portable in terms of where it is hosted so if it is high portability is require then
+it may not be good choice where proprietary language or approaches would impact on the
+development process so there may be proprietary languages approaches specially in mission
+critical stuff like in case of a defense in case a some of the cases of financial sector
+you may not want to want that organization may not want to do in this all open system
+open i dont say that it is a open source only but it is not on a public systems rather than
+on proprietary things and there are can be some proprietary approaches of of looking
+at the problems
+so they are this type things may not be useful where proprietary language would hinder later
+moves to another provider concerns raised it settle vendor locking so there is a another
+these two of vendor lock in come come into the thing so it is a vendor locking then then
+also we have a problem here where performance require customize of underlying hardware and
+software so my objective is to have a application performing at its based then i need to customize
+that the underlying hardware and software that means i want to have a customize tack
+right i dont have generic stack of the thing but i have a customize tack then this type
+of things may not be paas may not be a good choice
+and finally that iaas so it provides a infrastructure in terms of servers storage network operating
+system on a on demand bases right so in rather than purchasing or maintaining we can have
+a virtualization of those things like or i can have a virtual machines and virtual storage
+and type of thing so that is the iaas extremely popular and used characteristics are well
+known that resources are distributed as services allows dynamic dynamic scaling has variable
+cost like this i can have i can pay as you use utility pricing model includes multiple
+users on a piece of hardware
+so i can have number of user working on a same hardware stack or realizing different
+virtual machine on the same hardware stack where it makes lot of since the demand is
+very volatile right i i have some times a machine of a particular memory requirement
+sometime some other requirements so demands are very that means there are spikes are there
+or or new organizations without the capability of investment in several organizations or
+several projects what we see that we immediately purchasing something on the hardware is may
+not be visible or sometimes what we want to do some of the pocs proof of concept that
+time also these are not purchasing takes a lot of time
+so or i can have a kick start of the whole process so they are the iaas is helpful where
+there is a pressure organization to limit capital expenditure may one of the things
+for specific line of business trial or temporary infrastructural needs so that means what we
+have say that proof of concept etcetera where some of the cases where it may not be the
+best option where the there may be regulatory compliance on all legal issues to makes things
+you cannot make the some your data your computing on the other premises or you cannot outsource
+the data storage or computing there can be some of the legal issues or regulatory bindings
+on the things or where the highest level of performance are required right on premise
+or dedicated sources are required like i say some of the mission critical operations where
+you require some of the highest level performance where you one to customize the whole thing
+right that that in those cases this may not be a good solution having a generic infrastructural
+realize after all when you are having these vms
+so you are having multi things like you have underlying hardware over that some virtual
+machine monitor and then you are realizing different v m so what happened all these stuff
+is basically takes some amount of the resources and computational time right so when it is
+a mission critical where you want highest level of performance so you may not be looking
+for this so these are some of the popular saas provider we are not going much detail
+into the things so they have different pricing model like some are pay as you go some of
+the provider are free some are subscription base that amount of you subscribe for a er
+and then use it and type of things these are feature of like paas provider so i can have
+we are having different paas provider and the provide different type of thinks like
+like some are on the using data bases big table on data bases
+so the different type of characteristics you can see that here different type of target
+to use some dot net platform web development enterprise application etcetera so it it has
+different type of flavors to offer to the rumor and there are iaas provider major iaas
+provider there are several other iaas providers also and they have different type of capacities
+like like they are there you can have different type of hardware capacities there are different
+type of operating systems and we have different type of billing mechanisms into the things
+so these are these are the different type of iaas provider and if you if we as we have
+discussed already and discussing so if you if you look look at that again typical stack
+of these components then what we see that in case of a saas up to the application level
+the manage by the service provider right s
+o it is at the application level it is the responsibility of the cloud service provider
+look in where has in case of a xaas the responsibility is up to this runtime things so that data
+and applications are the users where has in case of infrastructure up to virtualization
+and providing vms is the responsibility of the provider whereas over that sometimes it
+will provide the provider will provide the guest ways or you can allow you to load the
+guest ways actually basically you can choose your guest ways to load to be loaded on the
+virtual machine so that and rest of the things is basically a responsibility of the iaas
+consumer or the user so if we look at another aspects of these cloud is the networking right
+this networking plays a very what we say important role critical role i so say in case in realization
+of the things because at the at the b r metal you are having different hardware resources
+right so they are connected over the network those who are those who have seen these different
+aspects different say rack server or the specially this blade server etcetera you will find that
+that is the backbone network is very high redundant type of things because these all
+these servers at a extremely high operating speed work with these networks
+so network is a important role in cloud computing there is another aspect of networking that
+whether i can virtualized this network like i say i have a i have a typical network scenario
+in a for my organizational need right so i i want to setup a network for organizing a
+particular event and i have a thing like i can say that these are the these are my routers
+and these are my servers so and so for now one way of looking at is that i purchase the
+thing separate things and connect the things right other whether i can virtualize this
+whole infrastructure itself like i have a what what i mean to say the as as i get a
+virtual machine whether i can create a overall a virtual network so i realize this network
+for the time being where the events will be there it may be some examination it may be
+some other division making something etcetera and then i give away the network on the things
+so in other words i i have some sort of a soft way of realizing this overall networking
+so that is another aspects of this so in cloud computing network resources can be provisioned
+dynamically as we have seen some of the networking concept that can form the cloud core of the
+cloud computing are virtual local area network right or what we popularly say wilan vpn and
+different protocol layers so this allows me to have realize this example of tools that
+help in there are different tool cent ignite like openssh openvpn and some of the popular
+thing and if you have networking in different cloud models so if you see that these are
+these are our osi typical osi stack and if we look at that in the iaas so in iaas up
+to this data link layer is provided by the provider rest of the consumer responsibility
+on the other hand in case of a saas the responsibility of the providers goes up to the whole stack
+right
+so where in case of a paas this what we have the provider has a responsibility up to the
+presentation or sometimes layer etcetera that means it gives a platform so if i if i want
+to realize these ways high as a service model then i have different type of realization
+when you look as a whole infrastructure whole as a platform or as a as a software as a service
+so what we see that networking plays a important role into the things there is another concept
+what we say network function virtualization will just have a quick introduction its aims
+to transform the way the network operator architects the networks by evolving standard
+it virtualization technology to consolidate many network equipment types into the industry
+standard switches etcetera could be located in datacenters what it tries to say it says
+that it tries to emulate in it work over your over the infrastructure right as we are discussing
+it involves implementation of the network functions in software that can run on a range
+of industry standard server hardware and that can be move instantiated in and various location
+of the network as required without need of installation of new equipment
+that means as if i will little bit discuss in our subsequent talk so as if i have a infrastructure
+and i realize several network over the over the things like i these are the classical
+approaches and here i have infrastructure then i try to realize different network over
+this basic infrastructure or i can have different virtual networks over the same infrastructure
+so if it is possible then not only this having this different virtual machines i can have
+different virtual networks for the things or i can realize a virtual network on that
+is so will stop here for todays lecture and will continue with our discussion in subsequent
+talks
+thank you

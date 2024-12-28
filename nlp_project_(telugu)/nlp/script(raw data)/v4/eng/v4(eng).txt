@@ -1,0 +1,293 @@
+different aspects of the cloud computing today we will look at or we will start with cloud
+computing architecture right what are we will start with the basic introduction and we will
+go to more details in todays or subsequent lectures so if we look at these high level
+architectural approach or high level view of this things so what we have at the at the
+end of the things what we are looking for one is that from the ah user prospective or
+overall cloud computing it is we want to achieve some ah business goal right it can be business
+goal with respect to consumers it can be business goal with respect to the producer or it may
+be the overall frame work of the cloud computing right
+so ah some of the business goals is the major thing we are next we have the quality attributes
+and then the architectural tactics or the basic architectural frame work so if you look
+at that ah business goal at the top of the thing what we looking for primarily we are
+looking for some t c o like what is the total cost to the organization who are the stake
+ah what about the stake holder satisfaction ah compliance with different standards market
+shares flexibility etcetera so this is the overall business goal from the c s p point
+of view and to achieve this business goal we have few more parameters we need to be
+looked into or which are which need to be monitored measured and what we mean to say
+that need to be managed properly is that ah issue of availability elasticity interoperability
+security adoptability performance usability and maintainability
+now if you if you look at this ah if you ah just go back in one or two lectures where
+we started with the basic definition of cloud computing so we were looking for these aspects
+of the things like that whether how much available how it is elastic how what a interoperability
+so these are major what we say major characteristics of the ah cloud so this this characteristics
+basically allows a service provider to define his business goal ah across these different
+cloud market and finally in order to achieve this different ah measured services or the
+business goals we need to have basic architectural techniques or architectural ah view
+so ah like there were the considered essentials are whether it is a stateless design whether
+we it whether we loosely coupled right what we are thinking that there are there are several
+devices which ah which are geographical is spread so they may be loosely coupled hetrogenious
+need to be what we want to bring into the thing is a some sort of a ah interconnect
+and homogeneity between the things over broad network access right so what is the caching
+mechanism so claim what should be the authentication whether it is claim based authentication then
+there are several tied several other aspects of the architectural techniques
+now if you look at this sort of things somewhere other are manifested at at any type of ah
+service model like if i say infrastructural service model so some aspects will come into
+play if i say ah paas some other aspects will come into play and we saas or any other type
+of model
+so this ah becomes important keep in mind while ah while developing proposing any architectural
+view so with this respect or with keeping this in view we see that ah what are the ah
+basic consideration to have in this cloud architecture so if you look at the major building
+block of cloud computing architecture one is that technical architecture right structuring
+according to the xaas stack right adopting cloud computing paradigms structuring cloud
+services and components ah middle ware and communication and management and security
+so this are more technically ah architect ah technical feature of the architectural
+things
+there are some of the things which are deployment operation architecture right like geo location
+check right i may ah i may want to say that due to my federal requirement all my data
+all my applications for my any type of government type ah government related activities should
+be within the territory of the country right i do not force for any application or any
+data outside the things like if i am having a mail service the mail data mail server etcetera
+should reside within the ah geographically bounded area of the of our nation so that
+might be a thing there are there there may be other legal issues etcetera and there are
+deployments issues like operation and monitoring so what should be the operational view how
+it will be monitored how this xaas stacks looked in to those are the other deployment
+operation architecture
+so if you ah if you look at this typical xaas thing so what w have at the down is this infrastructure
+as a service then platform as a service software as a service this is the typical stack of
+the or typical or most popular xaas excess a xaas applications or services now if you
+look at the ah this architectural side of the things or the ah basic building block
+so down the line is more of a storage and infrastructure so ah this is that is the colour
+in the blue up in the thing is the application this right and there are the client infrastructure
+which interacts with this application in between is the middle where or what we say that the
+platform or the platform as the service take obtained where the services cloud runtime
+libraries and other things come out
+so any any realization of any cloud computing ah infrastructure whether it is a public private
+ah open source customized we need to look in to some where other is broadly has to have
+these type realization and if we look as ah view of consumer versus providers or the customer
+versus provider so there are ah again for the iaas again this is primarily important
+for i t architect in the i t operation type of things for the end user or or the application
+user that is more important is the application user application administrator etcetera which
+howards around the top of the things like one of the popular things eg application may
+be the c r m right and where as for the software architect developer which which comes in the
+middle which uses this hardware infrastructure or which is uses this infrastructure as a
+service develop something and which are deployed or put support to these application above
+this
+so these are the this categories like in the ah in the middle of the things so different
+people or different category of users are different view of this architecture right
+now we just try to map that ah with this our very two popular one of means two popular
+cloud services there are several other popular services but these are the things which are
+available on the which will put to get so one is the microsoft windows azure platform
+another is the amazon cloud platform or amazon e c two
+now look at that also divided into more or less in the that three stack right this is
+as more at the bottom of the things same as the incase of e c two ah in case of amazon
+it is windows servers and ah related stuff where is in case of e c two it is it can be
+windows linux infrastructure along with s three ah amazon s three ah and simple dv and
+other type of storage and in between we are having this ah this middle where which emulates
+the platform this is as a analog of stuff there and at the top it has the applications
+right right ah this are some of the windows azure applications and these are the ah amazon
+applications and here the client can connect through ah either in case of a client this
+is silver light in case of this or ah we can connect it through the browser
+so one thing i just look like to mention ah it was there in the previous slide also there
+are two article stack right what we say ah management and security right this is important
+because this management and security issues sometimes people who want to put the security
+is also a management aspect and sometimes we have other aspects like what we say quality
+of services so management quality of services and security in some in some of the references
+or metriasys you will find that so all this are these are the scenarios where these are
+the stack which goes vertical that means it cannot be it i cannot achieve security or
+management taking only one layer at a thing
+so it is it is it requires some sort of a cross layer considerations that is why these
+are vertical stacks and if you see the same thing ah in case of a case of these ah azure
+or e c two so these are also we have these vertical stacks right so they have different
+component of security relevant component of management but these goes on the vertical
+stack similarly ah the security aspect is based on the we see later on based on how
+much control we are having goes on to things like if i am if i am having infrastructure
+as a service so my security or management is more consideration on the ah as a infrastructure
+so ah so once i rollout this infrastructure one i vision this infrastructure actual machine
+etcetera so that is the responsibility of the user or the consumer to look in to the
+thing if i having a up to a software as a service then all these issues are need to
+be provided up to that layer right so a say a a what put processing service or c r m service
+which is a software service so ah all aspects up to that level of management and security
+it will provided so that it depends that what sort of service provisioning or the what sort
+of ah service deployment we are doing for this ah particular ah particular scenario
+there are several aspects or issues as we are talking about one is elasticity as we
+are mentioned or as we are know ah that elasticity is one of the most important characteristics
+of cloud like if i if i scale up scale down into my ah in to this computing parodied now
+in order to achieve that so there can be two broad approaches right so this is this two
+broad approaches ah which is two when without cloud also it is more of a elastic computing
+when do one is that i can one i can do it vertical scale up that means at more resources
+to the box right we have a particular infrastructure say for for example i have a particular rack
+with different servers so we initially we are having say i am having some twenty four
+servers then i scale up putting more server in to the things or my chases may be holding
+sixteen blades and having initially four based on the requirement i the organization feels
+that the requirement go go on another four or up to a sixteen blade chases ah like full
+fully loaded chases now this is vertically going up right
+so this is ah has advantage where for in case of a small scenario scale up is probably cheaper
+ah so that it works just you be put on the things right so add more resources to a single
+computational box and move the work load to the computation unit to more resources so
+i i have more resources whereas ah when we have scenarios where for larger scenario scale
+out scale out is only solution one is to sixty four way server is much more expensive than
+sixty four into one way server right so having say sixty four of one unit computational power
+and trying to achieve realize a sixty four computational units is much cheaper than having
+a six one unit of sixty four ah computation
+so what is happening that when i have a large scale scenario then expanding in that fashion
+may be pretty costly ah so in that cases not only expanding in terms of cost ah in terms
+of only financial aspects it is maintainability rate of failure may be pretty high like a
+one ah if the single system it is a single point of failure at time where as i if i have
+a multiple systems so that if an ah if some systems fails then i can have a way to work
+on in a ah little lower performance metric but i can work out the things
+so this becomes whether it is a horizontal scale up or scale out or it is a vertical
+scale out we need to consider based on my our requirement now ah if we ah again come
+back to our service model so xaas what is happening is the combination of service oriented
+infrastructure or a service oriented architecture on in for realization of infrastructure and
+cloud computing realize to a xaas so what is the service oriented architecture ah i
+believe most of you are acquire ah already knowing so what will do ah we will have a
+some sort of slides on service oriented architecture in ah subsequent lectures so that those who
+are not in the ah not hm understand or not ah very much familiar with this type of things
+we will have a immediately quick check up
+but never the less it is a service driven ah approach for infrastructure or paas or
+any type of things right so we are tried to combine s o i and cloud computing to realize
+this xaas so anything as a service is a generalization of cloud related services refers to increasing
+number of services that are delivered over internet rather than provided locally or on
+site xaas is the essence of cloud computing already we know
+so anything as a service so still we seen data is a service another popular we can have
+anything other type of services right so as ah some of these popular xaas instance is
+one is infrastructure as a service platform software service already known there is another
+thing came up what is what is now becoming pretty popular what we say business process
+as a service right so or i have a business work flow which want to give as a service
+so horizontal or vertical business processes provided on a subscription basis to companies
+or industries like suppose for a particular particular ah operation i have a business
+process right so what are ah what does it mean it it may not be only one applications
+which is delivering the things so i have different processes which has a archaistism between
+them then allow me to realize a particular ah applications right it can be for ah something
+for the banking sector it can be for some of the aspects of different development planning
+operations of the things so it is not only i run a application and get results ah a application
+is dependent on other applications another etcetera etcetera
+so i have different processes or applications which allows me to realize the thing so it
+means as if p one two may lead to something called pue three which can is a input to the
+p three and in turn p three and p four will come out with the final outcome of the things
+now i have different may be different processes right or ah so these are archaistics in the
+things so i can say i have business process which is which is basically division of the
+ah or ah amalgamation or integration of the of different sub processes or sub applications
+the interesting feature is that there is a timing relationship and a what we say processes
+execution tree or process execution graph will be there so that it it follows a particular
+things
+now for this sort of things if it is a define then whether i can say this i give a service
+with a business process everything so it is not now not only the application as a service
+or software as a service so i basically have a something more than software as a service
+which talks with things incidentally different processes may come from from different heterogeneous
+providers so i can basically now interact with or collaborate with different cloud service
+providers and then realize the thing
+so this business process is important because end of the day specially for the organization
+this matters rather ah many of you might have heard there is a very popular language what
+we say business process execution language where you can defined what is your business
+process of outflow in to the thing and so it realize the thing right so that is one
+one of the major aspects so iaas is the raw infrastructure c p u etcetera paas is the
+virtualized application development or run time platform saas is the software application
+hosted in the cloud provided in a subscription basis and this business process as a service
+is a horizontal or vertical business process involved in ah basis ah on a subscription
+basis to companies or industries right and if we again little renew so it is something
+a tapering thing our popular iaas paas and thing paas are the infrastructure
+so other than this three most popular examples we have ah several other ah business process
+ah ah several other xaas instances like we have already seen business process as a service
+there is storage as a service i can have security as a service like its it provides different
+security future as a thing i can have data base as a service right so i do not want to
+install etcetera i want to leverage database into a service monitoring management as a
+service like i want to manage my i t infrastructure like i want to i have a large say in our i
+t infrastructure we have large labs ah which are used by different category different type
+of p g u g courses and i want to basically manage the things right like manage the things
+upto a starting from software of the means what is the software going on whether they
+are michinious basically having any problem from the hardware or type of things different
+things so whether i can have i have separate tools or i somebody gives me a service which
+connects with this machines and do the things right or any any large infrastructure in case
+of a organization
+so communication content computing as a service these are the some of the things identity
+as a service backup as a service desktop as a service so i can have anything as a service
+and these are some of the things which are being used across the world so end of the
+day what does c s p or the cloud provider is looking for increase ah productivity end
+user satisfaction some innovative ah services so that it has it can hold its market position
+and have different intry ah it is ah its infrastructure as a aisle right so it is as aisle and it
+can give it is it cores it it can what we say configure it self along with the need
+of article
+so if we look at this again if we come back to our ah basic definition and try to see
+so one is the broad network access resource pooling business driven infrastructure on
+demand like what is there and service oriented orientation service oriented architecture
+so all this four hills us in realizing this xaas type of services so xaas fulfills all
+the four ah typical demands of ah service provider right
+now ah like our network stack ah like our t c p i p r o s i models so if i want to have
+that what will be the typical classical stack of the things right stack of our service model
+or xaas model so at the at the base of the things what ah so it is not like that ah so
+it is a what we say logical way of looking at the things right it is not like that ah
+that something will done always over the other but it is a logical representation of the
+things like at the core of the thing is the networking
+so you have a underlining broad network access which allows the things to talk each other
+right another core component is the storage it is also something omnipresent other aspect
+is the server so if you look at this three stuff are primarily is the major building
+block what we say the bear metal things over which it works so one is the communication
+one is this ah different servers and other physical infrastructure and other one is the
+storage storage always we try to keep it as a separate aspect other than keeping one of
+the infrastructure in some of the cases storage are kept as a infrastructure but storage plays
+a different type of role storage management is different thing
+so that is that those are a important aspects of the ah storage is the input aspect over
+that what in order to realize are the things is that is aspect of virtualization right
+so i need to virtualize all the things so i can have a virtualization of the whole infrastructure
+i can have the virtualization only of the particular behaviour actual missing i kept
+even virtualize the network so i have a infrastructure virtualization i want to realize a particular
+virtualization network infrastructure and of course storage and there is a virtualization
+basically try to have these so called virtual machines or virtual network virtual storage
+type of ah stuff over that if it is a virtual machine i need to put the particular o s over
+which i should run the thing right or and so this over that this middleware then i have
+runtime library the data over for ah which more closely with the application and finally
+end of the top of the stack is the applications
+so these are the different components which make this iaas that the ah feasible it is
+it may be noted that all the components are not equally important ah may not be equally
+important for all type of xaas type of thing but never the less they play a important role
+in realization of the thing now if we try to because always it hewers that all all we
+are some somewhere other we are already getting this stuffs right what is the what is this
+big paradise shift right so as such we should ah we have already mentioned in our initial
+lectures that already we are ah having distributed systems and other things into place we do
+realize lot of things etcetera
+so make make it to make it more market viable and having a scalable computing infrastructure
+we as you go model measures are so if you look at that a simplified i t i t stack so
+we have end user devices application and dedicated infrastructure so this is the in the legacy
+i t or still it is very much still it is very much ah present in or rather omnipresent in
+various organizations and other type of thing so these are somewhat clipped together right
+or more strongly coupled right so that ah dedicated application runs over the applications
+dedicating infrastructure so application size seeing etcetera are made based on the infrastructure
+or other way around
+end user also have a some dedicated application to work with right whereas what we go for
+what we are trying to realize is more of a simplified i t infrastructure right where
+where these are are little bit flexibilities are maintained so i have some dedicated infrastructure
+over application end user devices but they are not very strongly bound so this is the
+ah thing what we are going to do and it it is it can be soon also we can since see some
+of the subsequent lectures that this sort of things may allow us to have better utilization
+of the resources or better return on investment right or having a giving service different
+of different type of services on the same type of or a or a common resource based type
+of thing
+in some of the cases several organizations has several surplus resources like if i talk
+again about our own u g or p g labs which may be having huge amount of ah computing
+resources but then they may not be utilize across twenty four hours right they are utilized
+may be eight to ten hours on a very ah very loaded but out of out of class hours or out
+of lab hours the those can be clubbed together to have to give the researchers the opportunity
+to run high simulation on the basic ah pc type of platform so that may be one way of
+utilizing own resources in a better fashion
+so ah there are some of the other things like classical model plus xaas model there are
+different aspects like licensed software hardware product and people based services these are
+the more popular aspects of our ah traditional cloud right traditional infrastructure models
+or classical infrastructure model and we need to make the architecture in such a fashion
+that it it maximizes this effort whereas in is our our imagine things we are going to
+a xaas type of ah services like so ah that is ah software iaas paas or any any type of
+any type of xaas type of services and rather ah if you look at our classical ah thing or
+still it is very much valid we have a client server architecture right
+so there is a server which serves several clients and based on the server programme
+is running on the server and always waiting for the client to connect and we connect to
+the thing and this is extremely popular and still very much in the use and will be in
+the use in in several cases right that from there we are migrated to a service oriented
+architecture so instead of this very strongly craple client server we have service oriented
+to it service talks to each other and there are distinct advantages we can have heterogeneous
+things to talk to each other and we we have lot of flexibilities
+very popular client server things are like f t p server ah telnet s t d p are a way particular
+demon of the server part which ah looks into this ah talks to this client so we will we
+will carry on our discussion in our ah subsequent ah lectures on this ah particular architectural
+aspects of a cloud computing and will also see that different things of virtualization
+another thing so to for today we will for now for this lecture we will stop here
+thank you

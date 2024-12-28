@@ -1,0 +1,720 @@
+ah welcome to the course on cloud computing today ah we will have our first ah lecture
+so as as you might have seen the broad overview of the course so in this particular series
+of lectures we will try to ah give an ah a overall picture of what cloud computing is
+and ah what are its major components and ah what are the recent trends and at the end
+may be what are the different type of a research opportunities or this trends of ah future
+trends in the cloud computing right so so before going to the details of cloud computing
+we will try to have a quick overview of course and the basic paradigm of computing
+now if you look that as defined by acm computing curricula in two thousand five as they defined
+computing it say ah general way we can ah define computing to mean ah as a mean to solve
+any goal oriented activity right so that means it it can be it can include starting from
+hardware software system for a wide range of purposes and also ah making computing systems
+intelligent using communications finding gathering informations from relevant to any particular
+purpose and so on so if you look at it has anything where some sort of a computing is
+needed it falls under the computing paradigm so this this gives us a broad spectrum of
+thing not only in terms of resources also in terms of the terms are category a level
+of people who can who are going to using you staring from a high end researcher or a professional
+to a student to even to a housewife or a citizen in general look one to use it for its benefit
+or something which particular purpose ok before ah going to other overview of this computing
+i will i will lets try to reiterate the type of a codes or type of things we will like
+to cover so initial lectures we will have a more ah
+things most likely today and may be ah something on the next day that introduction to cloud
+computing which has gives overview what that nist models says what are the typical properties
+characteristics advantage and disadvantages of cloud computing or role of open standards
+so whether there is a standardization need or things then we will look at more on a cloud
+computing architecture like what is the typical computing cloud computing stack moving towards
+a service oriented architecture so what sort of service models are available in cloud like
+typically infrastructure as a service platform as a service or software as a service or anything
+as a service let are we will see that anything as a service whether we can realize what are
+the different deployment models right in in case of a cloud how when i want to deploy
+whether it is in a what all be the different deployment models of a cloud then one of the
+another major aspect of cloud is the service management ah like like as as we ah whenever
+we try to ah purchase any service or whenever i want to leverage any service there is a
+need of service management like like from the say consumer end i i would like to have
+what is the guarantee of minimal services ah from the upto wider end the ah cloud provider
+or cloud service provider csp one to see that may be the profit or may be ah may be that
+how this guarantee what are the resource requirement at the back end to surf so much computers
+so from the if you look at the provider consumer for any type of services not only cloud services
+any type of services in our day today life we require some sort of a agreement between
+the service provider and the consumer what in what we say something call service level
+agreement like i want to say that my availability will be hundred percent or near hundred percent
+based on my thing like i say when a exam is going on i want to have redundant services
+so that the availability of the resources is hundred percent or very near to hundred
+percent whereas when i my practice session is going on requirement of availability may
+come down to ninety percent now based on the availability the resource tooling or resource
+management will be done by the at the ah provider end and the provider will charge based on
+the type of type of its resources type of availability etcetera then there are issues
+of down time what will be there are issues of quality of services there are several other
+issues that we will try to discuss under the paradigm of ah service level agreements and
+other things there is another important person another important aspects is cloudonomics
+or economy of using cloud computing it may not be whether it is always good that if i
+use cloud it will be beneficial whether it is true like it is as as we see like suppose
+if you want to commute two twenty kilometer per day for your office or work then it may
+be economical to purchase a car right but if you are commuting say even fifty kilometer
+or hundred kilometer once in a month it may not be economical ah then purchasing a car
+right it may be more economical than hiring a car right similarly when i suit hire when
+i suit purchase whether there is a relationship whether there is a economic model behind it
+or what if at all how to how how do i from my ah say organization point of view may be
+from a particular say even point of view whether i can see that whether purchasing or hiring
+a resources or is economical or what is the what is the economic model of the things
+so that type of things economics in cloud or economy in cloud we have to see another
+aspect is the resource management like this is more in the service provider end right
+or cloud service provider how these resources will be manage right like i ah so what i what
+i see that i have i need to surf so many people so what sort of resources i need to manage
+at the things this is true for anything like if i say if i have a stationary or who which
+takes care of stationary is related to say academic things like i says a note books pen
+and etcetera etcetera so how much i need to stock or it depend on how much ah maybe myself
+projection etcetera or ah so i donot have some a situation when i am starving for my
+store or i should not have a situation when i am say my full and i need to keep some thing
+outside the soft type of things right so it is i should not have a loading so i have a
+proper resource management so it is very tricky when we have a computing as a resource ah
+or when i provide computing as a resource then i have to manage several type of resources
+like typically of i look at a in a typical computing system forget about cloud or anything
+so what are the things we are basically looking for maybe one maybe the processor or the cpu
+popularly or maybe ah or one maybe the your ah working memory or popularly the ram or
+hard disk and maybe network connectivity and there are other several other resources which
+are they are right so how much resources i need to maintain manage
+etcetera right so any resources has a ah inherent hosting into the things so if i need to manage
+huge volume of resources without utilization then i have to incur what we say more cost
+on the resources or ah than in maintaining the things so this appropriate or optimally
+management of resources is a serious challenge and they are here like to see that what are
+the different type of resource management issues in these ah particular ah cloud computing
+thing so other aspects of these cloud computing one is the data management right so data is
+the very tricky thing like we look to look at this how these data will be stored manage
+scalability and cloud services over this data services over that if it is a not only data
+of it is a data bases and data stores so there there is a separate type of looking at the
+data things in the cloud and if it is a large scale data processing then i need to look
+at the ah how this data management will be there so our conventional way of approaching
+normal data or data base management system whether it is still still good for cloud or
+whenever i want to give as data storage or type of services so what type of things i
+need to do for the things like like we are popularly using different type of storage
+as a service ah stuffs and ah in our day today life like one of the popular thing may be
+the drop box so how things at the background need to be manage so it s not like that i
+need to build it at a services all the but at least looking at that what are this architecture
+and what are the issues in data management type of things
+another major aspects of a cloud is security right so your data is in some other place
+you are computing in in some other others domain so what will be the different type
+of security aspects so at it has ah like what will be the security which has been a infrastructure
+as thing or what are data related or storage related security because data is a important
+aspects of our all things like what ah what many people say that ah you can ah regenerate
+a or reinstall an application but you cannot reinstall your data right i really write a
+report of hundred or ten pages and it gets system get crashed and then data is lost along
+with the application i can reinstall the ways i can reinstall the ah what processing tool
+but i reinstalling the data is not possible that particular report is not possible of
+not you have a recovery mechanism expect them right whenever i have on my personal system
+like it may be personal computing desktop or in a laptop or wherever then it is my responsibility
+to take backups or i have redundancy things inter things but whenever i store the data
+into the others place then one is one is how things are saved and type of things ah in
+case of loss or another typical thing comes up whether my data is being accessed or over
+retained ride somebody else right so that means whether this what is the security of
+this particular data there are issues of identity and access management so this is this is another
+important aspects where particular identity and access management of the collaborating
+collaborating parties need to be there there are issues of access control trust reputation
+risk so there are several issues like how how access control will be there whether it
+is a our standard access control mechanism so whether role base access control mechanism
+or whatever things we can we work on on the security how much trust on i have being i
+have a cloud service provider whether i trust service provider one more than the service
+provider two or ah whether it is how to calculate a particular ah service provider so there
+are issues of the reputation i want to look at a reputation there are issues of risk of
+losing data losing application losing your because ah your own customers like you are
+purchasing cloud to surf somebody right so you you may intern things so this trust
+reputation risk goes somewhere what we say three nodes of a triangle so they are interlinked
+have a in for any ah systems they have a ah lot of what we say a lot of influence on working
+of the whole systems right so i need to assure that ah how it is assured in the on cloud
+computing paradigm that you see then we will try to look at some of case studies ah or
+or some some ah what we say demo type of things on open source comma and on commercial cloud
+may be some cloud simulator there are various commercial cloud in things ah in the ah in
+the market so we will try to see that what are the ah basic property or how they work
+etcetera then there are open source cloud so we are yet to see that how we open source
+things are there when we will if if time permits we will try to see that what are the different
+type of installing a open source cloud and there are ah few cloud simulators also so
+we like to if it is time permits we like to see the simulator and at the end of the things
+as as one of our major ah motivation of this academic world to take things in a in future
+right we want to see that something more in the future so we will try to look at the recent
+trend in cloud computing so those who are interested in research or
+even some of projects in pg level ug level so they can they can have a pointer that what
+are the different aspects of sentence in cloud computing there are there are people are talking
+about fog computing and other different technologies so we like to see that what are the different
+aspects of those things so this is broadly the overall code structure we will try to
+give a proper weightage based on the importance of the ah course we will and we will give
+more details as an when we will we will basically going through those lectures right so with
+this we will try we will we will have a quick overview of what are the different computing
+trend which which actually made this cloud computing a reality so it is it is ah not
+that it is from the day one something was there so it as we say that all all invention
+or all any type of development is primarily come up with ah some necessity or requirement
+of the of the what we say community scientific community or even ah general citizen at large
+so that drives that to what there one of the things there are definitely sky searches where
+we we it is driven by that in own things but we will like to see that so much computing
+is already was in place or is in place while still it has the importance whether it is
+a totally new baby or new stuff or it is a amalgamation or evolve through the things
+right so what we see it is in different literatures or even in if you look at the cloud computing
+as a all it is not a a suddenly new stuff which came into the play it has a evolved
+and it has different other development which is already in place which has ah basically
+helped in ah bringing this into ah play so ah if we look at that different type of computing
+paradigm which are ah or which where they are for long time and still ah still in a
+it is there in a big way so one first a of all the mother of the things
+all those things is known as the distributed or people say that it is a distributed computing
+right so distributed computing then we have differ and other computing it is not that
+ah it came ah in the sequence like one after another but it is more of the these are the
+different aspects what we look at the things so it is a distributed computing we have grid
+computing we have cluster computing we have utility computing and we are talking about
+cloud computing now if we ah see that ah these different development where different needs
+everybody has advantages some bodies advantages and they helped in making some other things
+in a feasible way so we will go quickly because these are some of the things already known
+to you and are available in the literature just to have that why what is the how it came
+up this cloud computing may be things so if you look at distributed computing so ah so
+we started with or still we are we work with centralized computing like primarily in previous
+days we used to use mainframe where different terminals are there so jobs are submitted
+to the mainframe that get executed and being used by the ah or being viewed by the user
+so primarily it is a something which is has a ah logically single processing thing right
+so or what we say some sort of a uni processor ah computing or centralized computing type
+of things now also in different places is there it is not like that we need to throw
+out the things there is a particular necessity of the things and if these are still useful
+in several places and being used at several areas so the other thing which evolved is
+the distributed computing we where you have different systems ah distributed ah over a
+ah particular geographical space ah typically it may vary from a lab type of a scenario
+to a scenario where you have large geographical boundaries also again on depends on the ah
+type of requirements are there right and one important aspects came up is that network
+link availability of seemless network connectivity during between this collaborating systems
+like they or what we say different ah different network systems right so so it is basically
+a field of computing science that studies distributed systems it was there for long
+time use of distributed system to solve computational processes all right there are different other
+type of other definitions which come up if you look at the internet several definitions
+come so there are several it is one says that there
+are several autonomous computational entities each of has its own local memory so it is
+separate autonomous independent computing entities having their own local memories the
+entities communicate with each other by message passing over a backbone communication network
+right so that is one thing if we look at the operating system point of or where the concept
+the processor communicates with each other through various communicational line say at
+high speed busses or even telephone lines where the things each processor has its own
+local memory right so there are several type of example people put different things in
+the distributed computing pairing ah starting from over internetworking is a distributed
+system ah or this atms bank machines different branches of the banks or even different collaborating
+and doing ah executing different functions that can be a things intranet or workgroups
+within the intranets may be a distributed system computing landscape will soon consist
+of ubiquitous network connected devices right ah or rather not will be it is already we
+have ubiquitous ah network connected devices so or what we say it is something haddock
+type of establishment which comes and type of things and these days we see different
+type of ah networks which are which form as a ad hoc network they are different volatile
+like one example is vehicular ad hoc networks right like vehicles ah smart vehicles with
+their own ah on communication path once they come together they form a ad hoc network and
+it it it executes different type of function like maybe safety related things may be entertainment
+related or infotainment related type of things and different type of stuff are there
+so of we look at the broad type of computers in a distributed systems so they are ah primarily
+what we say workstation ah server systems and personal ah assistance devices like it
+may so workstation is computers which are in the inducer to perform computing server
+systems which works on a ah which give some provide some services per say so computers
+which provide resources and services right there can be personal assistance devices like
+handheld computers connected to systems where wireless communication network i can be any
+type of things like any type of communication paradigms which helps in communicating with
+a things so these are the different ah what we say typical end nodes in a distributed
+systems right there can be other type of ah nodes also like i ah which has more network
+capabilities network processing type of things etcetera but this what we can say broadly
+these are the typical loads in a ah in a typical distributed system
+so if we look at the why such of thing some common properties or common advantages or
+what we say ah benefits of distributed system one is fault tolerant like you have ah one
+or more ah means several systems are working so even with some node failures it works faithfully
+right or may be at a lower ah lower performance but it is ah it is not totally out of ah service
+right had it been a centralized system so if down the whole thing is down what do you
+get to do something in a lower thing so ah it also to make it fault tolerant there are
+different mechanisms that said the was many of you may be knowing and to make the things
+so there are other thing that each know another ah typical aspect is each node play its partial
+role right so each node in the distributed system plays its partial role there is another
+aspects of or a property of resource sharing the share resources among themselves there
+is a load sharing so what is not only resource sharing that computing resource sharing but
+also load sharing like if i if it is a load or what we say that load balancing among the
+things can be realized easy to expand so use any systems may be like that that we can easy
+to expand like like i can have ah i can had ah distributed system ah more system into
+the network as and when as and when i have it or use it performance is a issue so parallel
+computing can be considered as a subset of a distributed systems where i can have higher
+performance and need to be monitor so what we will ah ah so another aspect of
+distributed system is that why why we require maybe the the nature of application demands
+it maybe the ah different performance like i have computing intensive data intensive
+type of a things and in some of the cases i require a robustness into the system that
+should be no single point failure i I dint want any single point failure i may be doing
+a miss and critical things which may not be very computing intensive or memory intensive
+but i I cant afford to do any failure on the system right so in the several cases there
+is a need of the things or in other sense this this need primarily one of the primary
+ah what we say motivation of developing or development of this distributed systems so
+we will we will ah break for now and we will continue our discussion in the subsequent
+in the next lecture thank you"
+ah welcome to the course on cloud computing today ah we will have our first ah lecture
+so as as you might have seen the broad overview of the course so in this particular series
+of lectures we will try to ah give an ah a overall picture of what cloud computing is
+in the next lecture thank you"
+may be what are the different type of a research opportunities or this trends of ah future
+trends in the cloud computing right so so before going to the details of cloud computing
+we will try to have a quick overview of course and the basic paradigm of computing
+now if you look that as defined by acm computing curricula in two thousand five as they defined
+computing it say ah general way we can ah define computing to mean ah as a mean to solve
+any goal oriented activity right so that means it it can be it can include starting from
+hardware software system for a wide range of purposes and also ah making computing systems
+intelligent using communications finding gathering informations from relevant to any particular
+purpose and so on so if you look at it has anything where some sort of a computing is
+needed it falls under the computing paradigm so this this gives us a broad spectrum of
+thing not only in terms of resources also in terms of the terms are category a level
+of people who can who are going to using you staring from a high end researcher or a professional
+to a student to even to a housewife or a citizen in general look one to use it for its benefit
+or something which particular purpose ok before ah going to other overview of this computing
+i will i will lets try to reiterate the type of a codes or type of things we will like
+to cover so initial lectures we will have a more ah
+things most likely today and may be ah something on the next day that introduction to cloud
+computing which has gives overview what that nist models says what are the typical properties
+characteristics advantage and disadvantages of cloud computing or role of open standards
+so whether there is a standardization need or things then we will look at more on a cloud
+computing architecture like what is the typical computing cloud computing stack moving towards
+a service oriented architecture so what sort of service models are available in cloud like
+typically infrastructure as a service platform as a service or software as a service or anything
+as a service let are we will see that anything as a service whether we can realize what are
+the different deployment models right in in case of a cloud how when i want to deploy
+whether it is in a what all be the different deployment models of a cloud then one of the
+another major aspect of cloud is the service management ah like like as as we ah whenever
+we try to ah purchase any service or whenever i want to leverage any service there is a
+need of service management like like from the say consumer end i i would like to have
+what is the guarantee of minimal services ah from the upto wider end the ah cloud provider
+or cloud service provider csp one to see that may be the profit or may be ah may be that
+how this guarantee what are the resource requirement at the back end to surf so much computers
+so from the if you look at the provider consumer for any type of services not only cloud services
+any type of services in our day today life we require some sort of a agreement between
+the service provider and the consumer what in what we say something call service level
+agreement like i want to say that my availability will be hundred percent or near hundred percent
+based on my thing like i say when a exam is going on i want to have redundant services
+so that the availability of the resources is hundred percent or very near to hundred
+percent whereas when i my practice session is going on requirement of availability may
+come down to ninety percent now based on the availability the resource tooling or resource
+management will be done by the at the ah provider end and the provider will charge based on
+the type of type of its resources type of availability etcetera then there are issues
+of down time what will be there are issues of quality of services there are several other
+issues that we will try to discuss under the paradigm of ah service level agreements and
+other things there is another important person another important aspects is cloudonomics
+or economy of using cloud computing it may not be whether it is always good that if i
+use cloud it will be beneficial whether it is true like it is as as we see like suppose
+if you want to commute two twenty kilometer per day for your office or work then it may
+be economical to purchase a car right but if you are commuting say even fifty kilometer
+or hundred kilometer once in a month it may not be economical ah then purchasing a car
+right it may be more economical than hiring a car right similarly when i suit hire when
+i suit purchase whether there is a relationship whether there is a economic model behind it
+or what if at all how to how how do i from my ah say organization point of view may be
+from a particular say even point of view whether i can see that whether purchasing or hiring
+a resources or is economical or what is the what is the economic model of the things
+so that type of things economics in cloud or economy in cloud we have to see another
+aspect is the resource management like this is more in the service provider end right
+or cloud service provider how these resources will be manage right like i ah so what i what
+i see that i have i need to surf so many people so what sort of resources i need to manage
+at the things this is true for anything like if i say if i have a stationary or who which
+takes care of stationary is related to say academic things like i says a note books pen
+and etcetera etcetera so how much i need to stock or it depend on how much ah maybe myself
+projection etcetera or ah so i donot have some a situation when i am starving for my
+store or i should not have a situation when i am say my full and i need to keep some thing
+outside the soft type of things right so it is i should not have a loading so i have a
+proper resource management so it is very tricky when we have a computing as a resource ah
+or when i provide computing as a resource then i have to manage several type of resources
+like typically of i look at a in a typical computing system forget about cloud or anything
+so what are the things we are basically looking for maybe one maybe the processor or the cpu
+popularly or maybe ah or one maybe the your ah working memory or popularly the ram or
+hard disk and maybe network connectivity and there are other several other resources which
+are they are right so how much resources i need to maintain manage
+etcetera right so any resources has a ah inherent hosting into the things so if i need to manage
+huge volume of resources without utilization then i have to incur what we say more cost
+on the resources or ah than in maintaining the things so this appropriate or optimally
+management of resources is a serious challenge and they are here like to see that what are
+the different type of resource management issues in these ah particular ah cloud computing
+thing so other aspects of these cloud computing one is the data management right so data is
+the very tricky thing like we look to look at this how these data will be stored manage
+scalability and cloud services over this data services over that if it is a not only data
+of it is a data bases and data stores so there there is a separate type of looking at the
+data things in the cloud and if it is a large scale data processing then i need to look
+at the ah how this data management will be there so our conventional way of approaching
+normal data or data base management system whether it is still still good for cloud or
+whenever i want to give as data storage or type of services so what type of things i
+need to do for the things like like we are popularly using different type of storage
+as a service ah stuffs and ah in our day today life like one of the popular thing may be
+the drop box so how things at the background need to be manage so it s not like that i
+need to build it at a services all the but at least looking at that what are this architecture
+and what are the issues in data management type of things
+another major aspects of a cloud is security right so your data is in some other place
+you are computing in in some other others domain so what will be the different type
+of security aspects so at it has ah like what will be the security which has been a infrastructure
+as thing or what are data related or storage related security because data is a important
+aspects of our all things like what ah what many people say that ah you can ah regenerate
+a or reinstall an application but you cannot reinstall your data right i really write a
+report of hundred or ten pages and it gets system get crashed and then data is lost along
+with the application i can reinstall the ways i can reinstall the ah what processing tool
+but i reinstalling the data is not possible that particular report is not possible of
+not you have a recovery mechanism expect them right whenever i have on my personal system
+like it may be personal computing desktop or in a laptop or wherever then it is my responsibility
+to take backups or i have redundancy things inter things but whenever i store the data
+into the others place then one is one is how things are saved and type of things ah in
+case of loss or another typical thing comes up whether my data is being accessed or over
+retained ride somebody else right so that means whether this what is the security of
+this particular data there are issues of identity and access management so this is this is another
+important aspects where particular identity and access management of the collaborating
+collaborating parties need to be there there are issues of access control trust reputation
+risk so there are several issues like how how access control will be there whether it
+is a our standard access control mechanism so whether role base access control mechanism
+or whatever things we can we work on on the security how much trust on i have being i
+have a cloud service provider whether i trust service provider one more than the service
+provider two or ah whether it is how to calculate a particular ah service provider so there
+are issues of the reputation i want to look at a reputation there are issues of risk of
+losing data losing application losing your because ah your own customers like you are
+purchasing cloud to surf somebody right so you you may intern things so this trust
+reputation risk goes somewhere what we say three nodes of a triangle so they are interlinked
+have a in for any ah systems they have a ah lot of what we say a lot of influence on working
+of the whole systems right so i need to assure that ah how it is assured in the on cloud
+computing paradigm that you see then we will try to look at some of case studies ah or
+or some some ah what we say demo type of things on open source comma and on commercial cloud
+may be some cloud simulator there are various commercial cloud in things ah in the ah in
+the market so we will try to see that what are the ah basic property or how they work
+etcetera then there are open source cloud so we are yet to see that how we open source
+things are there when we will if if time permits we will try to see that what are the different
+type of installing a open source cloud and there are ah few cloud simulators also so
+we like to if it is time permits we like to see the simulator and at the end of the things
+as as one of our major ah motivation of this academic world to take things in a in future
+right we want to see that something more in the future so we will try to look at the recent
+trend in cloud computing so those who are interested in research or
+even some of projects in pg level ug level so they can they can have a pointer that what
+are the different aspects of sentence in cloud computing there are there are people are talking
+about fog computing and other different technologies so we like to see that what are the different
+aspects of those things so this is broadly the overall code structure we will try to
+give a proper weightage based on the importance of the ah course we will and we will give
+more details as an when we will we will basically going through those lectures right so with
+this we will try we will we will have a quick overview of what are the different computing
+trend which which actually made this cloud computing a reality so it is it is ah not
+that it is from the day one something was there so it as we say that all all invention
+or all any type of development is primarily come up with ah some necessity or requirement
+of the of the what we say community scientific community or even ah general citizen at large
+so that drives that to what there one of the things there are definitely sky searches where
+we we it is driven by that in own things but we will like to see that so much computing
+is already was in place or is in place while still it has the importance whether it is
+a totally new baby or new stuff or it is a amalgamation or evolve through the things
+right so what we see it is in different literatures or even in if you look at the cloud computing
+as a all it is not a a suddenly new stuff which came into the play it has a evolved
+and it has different other development which is already in place which has ah basically
+helped in ah bringing this into ah play so ah if we look at that different type of computing
+paradigm which are ah or which where they are for long time and still ah still in a
+it is there in a big way so one first a of all the mother of the things
+all those things is known as the distributed or people say that it is a distributed computing
+right so distributed computing then we have differ and other computing it is not that
+ah it came ah in the sequence like one after another but it is more of the these are the
+different aspects what we look at the things so it is a distributed computing we have grid
+computing we have cluster computing we have utility computing and we are talking about
+cloud computing now if we ah see that ah these different development where different needs
+everybody has advantages some bodies advantages and they helped in making some other things
+in a feasible way so we will go quickly because these are some of the things already known
+to you and are available in the literature just to have that why what is the how it came
+up this cloud computing may be things so if you look at distributed computing so ah so
+we started with or still we are we work with centralized computing like primarily in previous
+days we used to use mainframe where different terminals are there so jobs are submitted
+to the mainframe that get executed and being used by the ah or being viewed by the user
+so primarily it is a something which is has a ah logically single processing thing right
+so or what we say some sort of a uni processor ah computing or centralized computing type
+of things now also in different places is there it is not like that we need to throw
+out the things there is a particular necessity of the things and if these are still useful
+in several places and being used at several areas so the other thing which evolved is
+the distributed computing we where you have different systems ah distributed ah over a
+ah particular geographical space ah typically it may vary from a lab type of a scenario
+to a scenario where you have large geographical boundaries also again on depends on the ah
+type of requirements are there right and one important aspects came up is that network
+link availability of seemless network connectivity during between this collaborating systems
+like they or what we say different ah different network systems right so so it is basically
+a field of computing science that studies distributed systems it was there for long
+time use of distributed system to solve computational processes all right there are different other
+type of other definitions which come up if you look at the internet several definitions
+come so there are several it is one says that there
+are several autonomous computational entities each of has its own local memory so it is
+separate autonomous independent computing entities having their own local memories the
+entities communicate with each other by message passing over a backbone communication network
+right so that is one thing if we look at the operating system point of or where the concept
+the processor communicates with each other through various communicational line say at
+high speed busses or even telephone lines where the things each processor has its own
+local memory right so there are several type of example people put different things in
+the distributed computing pairing ah starting from over internetworking is a distributed
+system ah or this atms bank machines different branches of the banks or even different collaborating
+and doing ah executing different functions that can be a things intranet or workgroups
+within the intranets may be a distributed system computing landscape will soon consist
+of ubiquitous network connected devices right ah or rather not will be it is already we
+have ubiquitous ah network connected devices so or what we say it is something haddock
+type of establishment which comes and type of things and these days we see different
+type of ah networks which are which form as a ad hoc network they are different volatile
+like one example is vehicular ad hoc networks right like vehicles ah smart vehicles with
+their own ah on communication path once they come together they form a ad hoc network and
+it it it executes different type of function like maybe safety related things may be entertainment
+related or infotainment related type of things and different type of stuff are there
+so of we look at the broad type of computers in a distributed systems so they are ah primarily
+what we say workstation ah server systems and personal ah assistance devices like it
+may so workstation is computers which are in the inducer to perform computing server
+systems which works on a ah which give some provide some services per say so computers
+which provide resources and services right there can be personal assistance devices like
+handheld computers connected to systems where wireless communication network i can be any
+type of things like any type of communication paradigms which helps in communicating with
+a things so these are the different ah what we say typical end nodes in a distributed
+systems right there can be other type of ah nodes also like i ah which has more network
+capabilities network processing type of things etcetera but this what we can say broadly
+these are the typical loads in a ah in a typical distributed system
+so if we look at the why such of thing some common properties or common advantages or
+what we say ah benefits of distributed system one is fault tolerant like you have ah one
+or more ah means several systems are working so even with some node failures it works faithfully
+right or may be at a lower ah lower performance but it is ah it is not totally out of ah service
+right had it been a centralized system so if down the whole thing is down what do you
+get to do something in a lower thing so ah it also to make it fault tolerant there are
+different mechanisms that said the was many of you may be knowing and to make the things
+so there are other thing that each know another ah typical aspect is each node play its partial
+role right so each node in the distributed system plays its partial role there is another
+aspects of or a property of resource sharing the share resources among themselves there
+is a load sharing so what is not only resource sharing that computing resource sharing but
+also load sharing like if i if it is a load or what we say that load balancing among the
+things can be realized easy to expand so use any systems may be like that that we can easy
+to expand like like i can have ah i can had ah distributed system ah more system into
+the network as and when as and when i have it or use it performance is a issue so parallel
+computing can be considered as a subset of a distributed systems where i can have higher
+performance and need to be monitor so what we will ah ah so another aspect of
+distributed system is that why why we require maybe the the nature of application demands
+it maybe the ah different performance like i have computing intensive data intensive
+type of a things and in some of the cases i require a robustness into the system that
+should be no single point failure i I dint want any single point failure i may be doing
+a miss and critical things which may not be very computing intensive or memory intensive
+but i I cant afford to do any failure on the system right so in the several cases there
+is a need of the things or in other sense this this need primarily one of the primary
+ah what we say motivation of developing or development of this distributed systems so
+we will we will ah break for now and we will continue our discussion in the subsequent
+in the next lecture thank you"
+ah welcome to the course on cloud computing today ah we will have our first ah lecture"
+so as as you might have seen the broad overview of the course so in this particular series"
+of lectures we will try to ah give an ah a overall picture of what cloud computing is"
+and ah what are its major components and ah what are the recent trends and at the end"
+may be what are the different type of a research opportunities or this trends of ah future"
+trends in the cloud computing right so so before going to the details of cloud computing"
+we will try to have a quick overview of course and the basic paradigm of computing"
+now if you look that as defined by acm computing curricula in two thousand five as they defined"
+computing it say ah general way we can ah define computing to mean ah as a mean to solve"
+any goal oriented activity right so that means it it can be it can include starting from"
+hardware software system for a wide range of purposes and also ah making computing systems"
+intelligent using communications finding gathering informations from relevant to any particular"
+purpose and so on so if you look at it has anything where some sort of a computing is"
+needed it falls under the computing paradigm so this this gives us a broad spectrum of"
+thing not only in terms of resources also in terms of the terms are category a level"
+of people who can who are going to using you staring from a high end researcher or a professional"
+to a student to even to a housewife or a citizen in general look one to use it for its benefit"
+or something which particular purpose ok before ah going to other overview of this computing"
+i will i will lets try to reiterate the type of a codes or type of things we will like"
+to cover so initial lectures we will have a more ah"
+things most likely today and may be ah something on the next day that introduction to cloud"
+computing which has gives overview what that nist models says what are the typical properties"
+characteristics advantage and disadvantages of cloud computing or role of open standards"
+so whether there is a standardization need or things then we will look at more on a cloud"
+computing architecture like what is the typical computing cloud computing stack moving towards"
+a service oriented architecture so what sort of service models are available in cloud like"
+typically infrastructure as a service platform as a service or software as a service or anything"
+as a service let are we will see that anything as a service whether we can realize what are"
+the different deployment models right in in case of a cloud how when i want to deploy"
+whether it is in a what all be the different deployment models of a cloud then one of the"
+another major aspect of cloud is the service management ah like like as as we ah whenever"
+we try to ah purchase any service or whenever i want to leverage any service there is a"
+need of service management like like from the say consumer end i i would like to have"
+what is the guarantee of minimal services ah from the upto wider end the ah cloud provider"
+or cloud service provider csp one to see that may be the profit or may be ah may be that"
+how this guarantee what are the resource requirement at the back end to surf so much computers"
+so from the if you look at the provider consumer for any type of services not only cloud services"
+any type of services in our day today life we require some sort of a agreement between"
+the service provider and the consumer what in what we say something call service level"
+agreement like i want to say that my availability will be hundred percent or near hundred percent"
+based on my thing like i say when a exam is going on i want to have redundant services"
+so that the availability of the resources is hundred percent or very near to hundred"
+percent whereas when i my practice session is going on requirement of availability may"
+come down to ninety percent now based on the availability the resource tooling or resource"
+management will be done by the at the ah provider end and the provider will charge based on"
+the type of type of its resources type of availability etcetera then there are issues"
+of down time what will be there are issues of quality of services there are several other"
+issues that we will try to discuss under the paradigm of ah service level agreements and"
+other things there is another important person another important aspects is cloudonomics"
+or economy of using cloud computing it may not be whether it is always good that if i"
+use cloud it will be beneficial whether it is true like it is as as we see like suppose"
+if you want to commute two twenty kilometer per day for your office or work then it may"
+be economical to purchase a car right but if you are commuting say even fifty kilometer"
+or hundred kilometer once in a month it may not be economical ah then purchasing a car"
+right it may be more economical than hiring a car right similarly when i suit hire when"
+i suit purchase whether there is a relationship whether there is a economic model behind it"
+or what if at all how to how how do i from my ah say organization point of view may be"
+from a particular say even point of view whether i can see that whether purchasing or hiring"
+a resources or is economical or what is the what is the economic model of the things"
+so that type of things economics in cloud or economy in cloud we have to see another"
+aspect is the resource management like this is more in the service provider end right"
+or cloud service provider how these resources will be manage right like i ah so what i what"
+i see that i have i need to surf so many people so what sort of resources i need to manage"
+at the things this is true for anything like if i say if i have a stationary or who which"
+takes care of stationary is related to say academic things like i says a note books pen"
+and etcetera etcetera so how much i need to stock or it depend on how much ah maybe myself"
+projection etcetera or ah so i donot have some a situation when i am starving for my"
+store or i should not have a situation when i am say my full and i need to keep some thing"
+outside the soft type of things right so it is i should not have a loading so i have a"
+proper resource management so it is very tricky when we have a computing as a resource ah"
+or when i provide computing as a resource then i have to manage several type of resources"
+like typically of i look at a in a typical computing system forget about cloud or anything"
+so what are the things we are basically looking for maybe one maybe the processor or the cpu"
+popularly or maybe ah or one maybe the your ah working memory or popularly the ram or"
+hard disk and maybe network connectivity and there are other several other resources which"
+are they are right so how much resources i need to maintain manage"
+etcetera right so any resources has a ah inherent hosting into the things so if i need to manage"
+huge volume of resources without utilization then i have to incur what we say more cost"
+on the resources or ah than in maintaining the things so this appropriate or optimally"
+management of resources is a serious challenge and they are here like to see that what are"
+the different type of resource management issues in these ah particular ah cloud computing"
+thing so other aspects of these cloud computing one is the data management right so data is"
+the very tricky thing like we look to look at this how these data will be stored manage"
+scalability and cloud services over this data services over that if it is a not only data"
+of it is a data bases and data stores so there there is a separate type of looking at the"
+data things in the cloud and if it is a large scale data processing then i need to look"
+at the ah how this data management will be there so our conventional way of approaching"
+normal data or data base management system whether it is still still good for cloud or"
+whenever i want to give as data storage or type of services so what type of things i"
+need to do for the things like like we are popularly using different type of storage"
+as a service ah stuffs and ah in our day today life like one of the popular thing may be"
+the drop box so how things at the background need to be manage so it s not like that i"
+need to build it at a services all the but at least looking at that what are this architecture"
+and what are the issues in data management type of things"
+another major aspects of a cloud is security right so your data is in some other place"
+you are computing in in some other others domain so what will be the different type"
+of security aspects so at it has ah like what will be the security which has been a infrastructure"
+as thing or what are data related or storage related security because data is a important"
+aspects of our all things like what ah what many people say that ah you can ah regenerate"
+a or reinstall an application but you cannot reinstall your data right i really write a"
+report of hundred or ten pages and it gets system get crashed and then data is lost along"
+with the application i can reinstall the ways i can reinstall the ah what processing tool"
+but i reinstalling the data is not possible that particular report is not possible of"
+not you have a recovery mechanism expect them right whenever i have on my personal system"
+like it may be personal computing desktop or in a laptop or wherever then it is my responsibility"
+to take backups or i have redundancy things inter things but whenever i store the data"
+into the others place then one is one is how things are saved and type of things ah in"
+case of loss or another typical thing comes up whether my data is being accessed or over"
+retained ride somebody else right so that means whether this what is the security of"
+this particular data there are issues of identity and access management so this is this is another"
+important aspects where particular identity and access management of the collaborating"
+collaborating parties need to be there there are issues of access control trust reputation"
+risk so there are several issues like how how access control will be there whether it"
+is a our standard access control mechanism so whether role base access control mechanism"
+or whatever things we can we work on on the security how much trust on i have being i"
+have a cloud service provider whether i trust service provider one more than the service"
+provider two or ah whether it is how to calculate a particular ah service provider so there"
+are issues of the reputation i want to look at a reputation there are issues of risk of"
+losing data losing application losing your because ah your own customers like you are"
+purchasing cloud to surf somebody right so you you may intern things so this trust"
+reputation risk goes somewhere what we say three nodes of a triangle so they are interlinked"
+have a in for any ah systems they have a ah lot of what we say a lot of influence on working"
+of the whole systems right so i need to assure that ah how it is assured in the on cloud"
+computing paradigm that you see then we will try to look at some of case studies ah or"
+or some some ah what we say demo type of things on open source comma and on commercial cloud"
+may be some cloud simulator there are various commercial cloud in things ah in the ah in"
+the market so we will try to see that what are the ah basic property or how they work"
+etcetera then there are open source cloud so we are yet to see that how we open source"
+things are there when we will if if time permits we will try to see that what are the different"
+type of installing a open source cloud and there are ah few cloud simulators also so"
+we like to if it is time permits we like to see the simulator and at the end of the things"
+as as one of our major ah motivation of this academic world to take things in a in future"
+right we want to see that something more in the future so we will try to look at the recent"
+trend in cloud computing so those who are interested in research or"
+even some of projects in pg level ug level so they can they can have a pointer that what"
+are the different aspects of sentence in cloud computing there are there are people are talking"
+about fog computing and other different technologies so we like to see that what are the different"
+aspects of those things so this is broadly the overall code structure we will try to"
+give a proper weightage based on the importance of the ah course we will and we will give"
+more details as an when we will we will basically going through those lectures right so with"
+this we will try we will we will have a quick overview of what are the different computing"
+trend which which actually made this cloud computing a reality so it is it is ah not"
+that it is from the day one something was there so it as we say that all all invention"
+or all any type of development is primarily come up with ah some necessity or requirement"
+of the of the what we say community scientific community or even ah general citizen at large"
+so that drives that to what there one of the things there are definitely sky searches where"
+we we it is driven by that in own things but we will like to see that so much computing"
+is already was in place or is in place while still it has the importance whether it is"
+a totally new baby or new stuff or it is a amalgamation or evolve through the things"
+right so what we see it is in different literatures or even in if you look at the cloud computing"
+as a all it is not a a suddenly new stuff which came into the play it has a evolved"
+and it has different other development which is already in place which has ah basically"
+helped in ah bringing this into ah play so ah if we look at that different type of computing"
+paradigm which are ah or which where they are for long time and still ah still in a"
+it is there in a big way so one first a of all the mother of the things"
+all those things is known as the distributed or people say that it is a distributed computing"
+right so distributed computing then we have differ and other computing it is not that"
+ah it came ah in the sequence like one after another but it is more of the these are the"
+different aspects what we look at the things so it is a distributed computing we have grid"
+computing we have cluster computing we have utility computing and we are talking about"
+cloud computing now if we ah see that ah these different development where different needs"
+everybody has advantages some bodies advantages and they helped in making some other things"
+in a feasible way so we will go quickly because these are some of the things already known"
+to you and are available in the literature just to have that why what is the how it came"
+up this cloud computing may be things so if you look at distributed computing so ah so"
+we started with or still we are we work with centralized computing like primarily in previous"
+days we used to use mainframe where different terminals are there so jobs are submitted"
+to the mainframe that get executed and being used by the ah or being viewed by the user"
+so primarily it is a something which is has a ah logically single processing thing right"
+so or what we say some sort of a uni processor ah computing or centralized computing type"
+of things now also in different places is there it is not like that we need to throw"
+out the things there is a particular necessity of the things and if these are still useful"
+in several places and being used at several areas so the other thing which evolved is"
+the distributed computing we where you have different systems ah distributed ah over a"
+ah particular geographical space ah typically it may vary from a lab type of a scenario"
+to a scenario where you have large geographical boundaries also again on depends on the ah"
+type of requirements are there right and one important aspects came up is that network"
+link availability of seemless network connectivity during between this collaborating systems"
+like they or what we say different ah different network systems right so so it is basically"
+a field of computing science that studies distributed systems it was there for long"
+time use of distributed system to solve computational processes all right there are different other"
+type of other definitions which come up if you look at the internet several definitions"
+come so there are several it is one says that there"
+are several autonomous computational entities each of has its own local memory so it is"
+separate autonomous independent computing entities having their own local memories the"
+entities communicate with each other by message passing over a backbone communication network"
+right so that is one thing if we look at the operating system point of or where the concept"
+the processor communicates with each other through various communicational line say at"
+high speed busses or even telephone lines where the things each processor has its own"
+local memory right so there are several type of example people put different things in"
+the distributed computing pairing ah starting from over internetworking is a distributed"
+system ah or this atms bank machines different branches of the banks or even different collaborating"
+and doing ah executing different functions that can be a things intranet or workgroups"
+within the intranets may be a distributed system computing landscape will soon consist"
+of ubiquitous network connected devices right ah or rather not will be it is already we"
+have ubiquitous ah network connected devices so or what we say it is something haddock"
+type of establishment which comes and type of things and these days we see different"
+type of ah networks which are which form as a ad hoc network they are different volatile"
+like one example is vehicular ad hoc networks right like vehicles ah smart vehicles with"
+their own ah on communication path once they come together they form a ad hoc network and"
+it it it executes different type of function like maybe safety related things may be entertainment"
+related or infotainment related type of things and different type of stuff are there"
+so of we look at the broad type of computers in a distributed systems so they are ah primarily"
+what we say workstation ah server systems and personal ah assistance devices like it"
+may so workstation is computers which are in the inducer to perform computing server"
+systems which works on a ah which give some provide some services per say so computers"
+which provide resources and services right there can be personal assistance devices like"
+handheld computers connected to systems where wireless communication network i can be any"
+type of things like any type of communication paradigms which helps in communicating with"
+a things so these are the different ah what we say typical end nodes in a distributed"
+systems right there can be other type of ah nodes also like i ah which has more network"
+capabilities network processing type of things etcetera but this what we can say broadly"
+these are the typical loads in a ah in a typical distributed system"
+so if we look at the why such of thing some common properties or common advantages or"
+what we say ah benefits of distributed system one is fault tolerant like you have ah one"
+or more ah means several systems are working so even with some node failures it works faithfully"
+right or may be at a lower ah lower performance but it is ah it is not totally out of ah service"
+right had it been a centralized system so if down the whole thing is down what do you"
+get to do something in a lower thing so ah it also to make it fault tolerant there are"
+different mechanisms that said the was many of you may be knowing and to make the things"
+so there are other thing that each know another ah typical aspect is each node play its partial"
+role right so each node in the distributed system plays its partial role there is another"
+aspects of or a property of resource sharing the share resources among themselves there"
+is a load sharing so what is not only resource sharing that computing resource sharing but"
+also load sharing like if i if it is a load or what we say that load balancing among the"
+things can be realized easy to expand so use any systems may be like that that we can easy"
+to expand like like i can have ah i can had ah distributed system ah more system into"
+the network as and when as and when i have it or use it performance is a issue so parallel"
+computing can be considered as a subset of a distributed systems where i can have higher"
+performance and need to be monitor so what we will ah ah so another aspect of"
+distributed system is that why why we require maybe the the nature of application demands"
+it maybe the ah different performance like i have computing intensive data intensive"
+type of a things and in some of the cases i require a robustness into the system that"
+should be no single point failure i I dint want any single point failure i may be doing"
+a miss and critical things which may not be very computing intensive or memory intensive"
+but i I cant afford to do any failure on the system right so in the several cases there"
+is a need of the things or in other sense this this need primarily one of the primary"
+ah what we say motivation of developing or development of this distributed systems so"
+we will we will ah break for now and we will continue our discussion in the subsequent"
+in the next lecture thank you"

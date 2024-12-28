@@ -1,0 +1,314 @@
+so where we end in the last talk is where we are talking about the distributed systems
+right so i believe that we are we are in this particular site or in this slide why we require
+these distributed system so as we were discussing so the nature of the application is one of
+the driving force ah performance is another major driving force like like why ah if the
+some of the some of the applications some of the requirements are computing intensive
+or some of the things can be data data intensive
+so this requires requires distributed computing so another aspect is the robustness right
+like as we were discussing that there should not be any single point of failure my application
+does not want any single point of failure that means always it should be on even at
+a low performance level i cannot say it should be a failure in case of a centralized systems
+if the system fails everything drops down but in this case we still work on a on the
+things
+another other nodes can execute the same does executed on the failed nodes so that means
+i evolve as a system that if it is a failed then the task which is working on the failed
+node can be executed or shared the load by the other node so this type of technology
+algorithms are possible to develop or or are being used in case of a distributed systems
+so there are several another ah several distributed applications so application that consist of
+set of processes that are distributed across network of machines and work together as an
+ensemble to solve a common problem
+in other sense i have a several applications which coordinate among themselves to address
+a particular problem so this this is as if is a group of people working to address a
+particular problem this is primarily useful for a large scale application development
+or large scale operational need right where you have different operation being serve as
+different and we have we realize a a particular overall job that did right so there are not
+only computing aspect there are several other aspects into the things as those who have
+worked or those who are read either things there are there is a need of or castration
+of this processes or castration of the services like who who will do etcetera so we have to
+form there so there are different aspects but there is one of the major application
+of this type of major application of this type of distributed computing
+and ah not only in the past now also ah it is mostly its several application are client
+server type of things ah resource management centralized at the server so we which want
+to make it an a distributed fashion there are peer to peer computing which represents
+a movement towards truly distributed applications right so there are other other type of ah
+motivating forces or motivating motivations towards the distributed system so this is
+typically clients invoke individual servers we are ah we are used to that like client
+invoke ah a particular server ah so invocation and results the sever can as a client for
+another server right and there are there be can be there so i can say that all those things
+works in a individually may be clients sever more but they are basically trying to realize
+a overall particular job
+so i can have a typical distributed application based on peer processes so there are different
+peers there are different applications which are running in the peers and ah it can so
+happen that the this applications talk to each other to realize to realize a particular
+job right so there are application based on this peer processes so another so these are
+different type of distributed computing paradigm another computing paradigm which ah became
+popular rather still it is a it is very much popular is the grid computing right
+there are again different definition of grid computing and if you look at some of them
+so a form of networking ah unlike conventional network that focus on communication among
+devices grid computing harnesses unused resource cycle of a of all computers in the network
+can solve problems intensive for standalone systems so that means i have a network of
+system much stronger couple solved some particular problems so if you look at other type of grid
+computing enables virtualization of distributed computing and data resources such as processing
+network bandwidth storage capacity to create a single system image granting user and application
+seamless access to the vast it applications
+this is another important way of looking at it that means i have a distributed computing
+paradigm and then i want to realize or virtualize another system over the things right which
+which is one of the prime over of this cloud computing paradigm right i have a several
+systems over the network they have different processes etcetera then i want to have a a
+system evolved out of the things like i or popularly i can say that its a i want to ah
+have one or more virtual machines with defined resources based on my requirement right this
+is one way of a looking at it
+so there are the these are the ah different aspect and then grid computing is a computing
+infrastructure that provides dependable consistent pervasive inexpensive access to computing
+capability in other sense i have a resources which are ah available on the network and
+one popular things what we have in our day today life is or hear about the things or
+experience the thing is the electrical grid right so one good analogy is an electrical
+grid so electrical grids are running and we tap power we in the sense that organizations
+or households or the power distribution systems step power from the grid so its a it something
+a available so in case of a you can have a ah computing analogies like users or client
+applications gain access to the computing resources processors storage data applications
+so on as needed with little or more no knowledge of where those resources are located
+that means i its a its a way of looking i have resources i tap those resources and use
+it for my thing say i i want to run something on a computing grid so i am more bothered
+about my own algorithm methodology and i what i think that what is the resource requirement
+now if i that particular grid particular computing grid allows me so i need to hook into the
+grid and run the resources ah run the my a program or my run my processes and it it detunes
+some the resources so the grid links together computing resources like pc workstation etcetera
+and provides the mechanisms needed to accessing
+so if i have agreed so what i require from the user point of view a mechanism access
+this grid so if you look at grid computing characteristics so say are more than information
+it is not only information it is something data computing per so and so efficient use
+of resources at many organization or institutes so i can have a efficient use of resources
+like if you look at our typical computing lab of a ug pg classes they accept the lab
+classes as they are mostly underutilized so i i could have form a computing grid during
+the of a piece hours specially of academic hours so that other researches could have
+used as the ah as as a computing platform so my pcs set of hundred pcs everything is
+fine
+i basically i virtualize with a layer of another middleware so that people can work and as
+as a inducer i dont care that what is going at the other other end so long my program
+my processes runs faithfully with a particular performance level which is desired by me so
+this is a good chance of using underutilized resources there is a join local communities
+so i can have different type of communities like i can say some grid resources for some
+biological sciences some arts sciences some genetic research so there are not only computing
+but they also give some basic processes to do that right so those things are available
+so in other sense i want those resources without having to purchase install maintain at a my
+end interaction with underneath layers must be transferred and seamless to the user so
+that means i have a interface as a end user i should not be bothered about what is going
+on at the other end of the things like how you are using the other leverage resources
+etcetera you may ask me for money like if may ask that you need to pay so much ah amount
+for so much utilization thats fine but i i may not be ah willing to ah i i i i dont want
+to go to the of how you maintain your resources how you maintain your network how what is
+the services etcetera that is your thing
+so need need of grid computing is well known so especially scientific research community
+is a big user of the things specially data analysis data analytics visualization collaboration
+between the scientific wall this days across continent people collaborate computer simulation
+and modeling are other ah common use scientific and engineering problems are becoming more
+complex and need more accurate precise solution for their problem data visualization is becoming
+an important aspects of the thing exploiting underutilized resources maybe one of the motivating
+forces right i have lot of resources which are underutilize i am want to do that again
+this is another stepping stone for towards your ah cloud computing
+so who uses grid there are as we say that finally there can physics application weather
+application material science reactor application and the so and so forth very few of them are
+there but it you can see that all paradigm or ah of research or all paradigm of different
+scientific activities are are there where who may be need indeed so there are different
+type of grids we will not go to much nativity there is one maybe the computational grid
+more on the computing one may the data grid which serves as a more of a data storage
+one maybe collaboratively give with that means so that it helps in doing collaborate physics
+there are other grids like network grids so providing fault tolerant high performance
+communication services over the things there can be utility grid in ah this is a utility
+form of grid ah in which not only data and computation cycles are shared but software
+or just about any resources are shared of the things so i say this is a utility grid
+so there can be different players into the thing definitely grid is a central thing that
+is the which provides the thing there there are users who uses grid there are groups which
+has a group activity there are different sides or what we resource availability locations
+ah of a different heterogeneous sites etcetera not only that there are issues of ah policy
+maintaining and other things like which can be share which cannot be shared which can
+be computed where a central things are there
+then another important aspects computer which which is pretty popular is the cluster computing
+ah so what is a cluster a cluster is a type of parallel or distributed computing platform
+which consists of collection of interconnected stand alone computing computers working together
+in a single integrated computing resources right so it so key components are ah stand
+alone computers may be pc workstation or smps operating system hyper performance interconnects
+middleware parallel programming environment and applications
+so there are different these are there are different these are different ah components
+of the cluster computing so clusters are usually deployed to improve speed or reliability over
+ah that provided by the single computer right typical clusters are like having the properties
+of the ah network faster closer connection ah then a typical lan low latency of communication
+protocol and loosely coupled than our smps so there are several type of clusters right
+few of them are high availability or failover clusters like it say the resources are so
+be highly available if there is a any failure of the cluster node the other things takes
+care etcetera there are things are load balancing cluster like if i have particular processes
+so the load balancing is done by the cluster there are parallel distributed processing
+clusters right these are these helps or these facilitates parallel and distributed ah processing
+so these are the clusters which are there so if you look at ah typical cluster nodes
+so there is a there is several cluster ah node so and a interconnect of network which
+connect the clusters and there are different network characterization of the things like
+how it will be connected what what will be the different type of mechanisms so on the
+things so there are several operational benefit one
+is the system availability is one of the thing ah fault tolerance is one of the thing scalability
+another aspects os and application reliability what we expect from the cluster and high performance
+usually cluster what we ah what we try to use it as a high it will provide a us high
+performance right then there is a with all this paradigm we started with the distributed
+computing and different outsource like grid cluster and so and so forth we this has motivated
+to a system or to a realization of a things what we say utility computing right
+what is utility computing or what is utility utility typically means that if i have something
+i need something i should be able to get it as and when i require it right it is as if
+you go to the market and purchase the thing or get the services like i want to book a
+ah railway or flight ticket so i require some interface it maybe a interface calling a broker
+or or a travel agent right so what i do i dont care about how things
+happens i want a utility to be there i want a even a plumbing job in my home call up in
+my residential complex the utility office and then i say this is the thing right i i
+dont care or i even that the person who is taking the call may not be knowing that how
+to any plumbing job but he connects or he or she connects to the particular things but
+as as a user i want a utility thing there so resources are there as and when we require
+trying to that if you look at distributed computing strum that a cluster and other type
+of a computing they also some sort of provide try to provide some utility based on the user
+need and ah try to i should not say disconnect try to basically ah make the inducer least
+bothered about the of maintaining the whole resources right
+so utility computing is that it is a purely a concept which cloud computing practically
+ah implements what we will see later on its a service provisioning model right model in
+which a service provider makes computing resources and infrastructure management available to
+the customer as needed and charges them for specific uses rather than the flat rate right
+so the word utility is used to make an analogy to a other services like electrical power
+right that that seek to meet fluctuating customer needs charge the resources based on the uses
+rather than the flat rate basis and approach this approach sometimes called pay per use
+or what we say pay as you go model so if we look at our electrical services electrical
+things so we have a meter so and we whenever i switch on any electrical appliances it maybe
+power it can it can be my electrical light or microwave oven or air conditioning or computing
+a computer whatever i resources the as much as my as i consume that much i pay based on
+the rates etcetera what is decided by the electrical ah that electric authority or utility
+power authority and type of things now i i really dont dont care or dont know
+how this powers are generated how these are coming to up to my home only what i care that
+i have metered service right whatever i use its a service which is meter another popular
+uses is our ah telecom services especially the mobile services right so that also we
+use as utility and we take a connection from a again ah telephone or mobile service provider
+and then i i want i use i pay as i use right it may be post paid prepaid and type of things
+and based on that whatever the ah model of payment model but dont care that whether the
+service provider one mobile service provider one whom i am using using another mobile service
+provider to connect me to somebody else etcetera etcetera
+what i need that facility like calling sending messages and may be data services right data
+video services all the things and i am ready to pay the things right so based on that i
+select the service so this is also utility services so this typically it is metered and
+pay as you go model or pay as you use model type of things so this is a paradigm shift
+or how we are looking at the ah computing though it is suddenly definitely it suddenly
+one day utility computing or term computing in come knocking at the door so it evolve
+from these all distributed systems to computing to cluster to type of other things right
+so that is a nice picture nice analogy like assume that there are different it resources
+and i if i open up the tap it i can have this applications resources falling from the tap
+when i dont require i close it so utility computing as a usually ah so what we we view
+as form of virtualization so that the amount of storage or computing power available is
+considerably larger than the than a single system sharing computer so what we what we
+are thinking it is a enormous amount of resources are there which is which i can use as i it
+can be unlimited computing thing which is there it is a unlimited networking unlimited
+application which is there like think about if we try to make a analogy
+when you ah when we ah using power right unless there is a restriction by the things that
+you cannot use more than so much kilowatt or so much megawatt that say one thing otherwise
+what virtually we are thinking that there is a enormous resources available at the other
+end ah somewhere other and i i i can tap anything which i want to use and i pay for the thing
+and i dont want to use i close the thing similarly for the computing also or even if
+for telecom or mobile services what we say whenever i am downloading a particular say
+file i say that the bandwidth is something which is available whatever i need right it
+may be ten kb or hundred kb file or it may be hundred mb file right so but the resources
+are there i need to pay for it i need to pay for the whole thing but i am able to use it
+so that there is ah another way of looking at it
+so in the incase of utility computing what we are trying to see that the computing itself
+starting from infrastructure computing resource may be that is hardware or the services like
+may be ah a particular platform we where we compile etctera or may be that some particular
+data storage capability i can store any type of data or it can be some software like i
+want to run particular simulation or mathematical simulation tool when i say that whatever extend
+i want to use i can use it i need to pay away so it is as of a huge enormous storage of
+things which are there in the thing so it has typical pricing model like our power
+grid pay for use pricing model so that is the one of the major thing there is a another
+aspects of data center virtualization ah or provisioning right that will come to that
+that means i virtualize the resource at my end say i want to emulate a particular system
+which has i want say a particular ah processor speed so much ah eight gb sixteen gb or one
+twenty eight gb ram so much hand disk and i want to run a particular scientific simulation
+for my purpose right so in from the whole volume of resource i
+virtualize a resource for my or customize the resource which is assumed as a virtual
+instance another user from the same pool of resources may be virtualise for some other
+things right so it is a we say that the whole thing has the data center virtualization and
+provisioning solves resource utilization problem right i may having lot of resource at my thing
+and this allows me to to basically supplied this resources i can do outsource some my
+thing like say whenever i am doing this i am outsourcing say software maintenance to
+something else or data storage thing something so i am i can do outsourcing
+web service level delivery right so that we will see that is ah what we these days what
+we are or rather last couple means rather last one decade mode primarily we have ah
+shifted from a data driven architecture to a service driven architecture so what we look
+at more as a services than the data correct so that is it utilization and then i have
+a enormous scope of automation right if i have different resources etcetera then the
+whole i can have a i can build a work flow which allows me to automate the whole resources
+so there is another aspects of this utility computing
+so one example may be on demand cyber infrastructure like i want to do a particular ah say examination
+for for my for recruiting ah some ah recruiting or test of my students ah and i want to have
+a separate infrastructure and they are they may be are in different physical location
+may be in different departments or if they from their house i want a cyber infrastructure
+which allows me to have a a virtual resources which they can take their exam correct
+so this i can have this type of cyber infrastructure i can have a typical cyber infrastructure
+in case of a say ah some event management ah typical event management like i want to
+manage a conference and for that period i want to have service cyber infrastructure
+i can have a infrastructure for disasters management which is more of a real time that
+resource need maybe may vary from one to another but i i dont want to keep those resources
+like i i ah say here at organized conference say it may be coming in a one or two in a
+month or type of things workshop etcetera and i do not want to keep a separate infrastructure
+for the things i want to make a infrastructure as i when i require i may pay for the things
+so that is one on demand cyber infrastructure may be the one thing
+there is another aspects of things whenever so what we see there is a provider or service
+provider there is a consumer those those two category of things has different requirement
+and we have different models or different what we say ah management issues which ties
+them together like one maybe pricing what price you give right so that say i want to
+if you take analogy i want to take a service provider which gives me a favorable price
+for my services like i i want ah more of a data service than calling i want data services
+more so i want to invest on those ah i want to select those service provider mobile service
+provider who gives me a better rate or better performance i dont care about the rate performance
+on this data services somebody may be more interested in the calling or messaging so
+they will do on their own so that is that is the pricing model there
+there should be a service level agreement like if i if i do this type of things what
+should be the service level agreement what should be the availability down time etcetera
+there can be a security aspects right if i ah say i want to use and store data etcetera
+so somebody else would not be using or looking at my data ah so there would a security aspects
+even security aspects like denial of services type of things should not be there that also
+i can look at the security aspects there can be a access mechanisms etcetera
+and there may be a need for application sizing the application need to be sized for me some
+application may be for doing data churning for terabytes of data but i do want to analyze
+with some megabytes of data so i dont want that large application neither i want to purchase
+the thing but i want to size the application based on my need right or in like reverse
+in the other way so there can be different type of payment models right so it can be
+flat rate tiered and type of things different pricing model for different customer based
+on factors like scale commitment payment frequency etcetera i can have customized things
+principle of utility computing ah remains same the pricing model is simply an expression
+of the providers of the cost let me say its a how how much provisioning of resources etcetera
+will come into the there are several risk we say or disadvantages based on this utility
+computing one one may be the data backup my data is somewhere if there is a crash what
+will happen right you store the data in third party and if there is a crash or whether that
+service provider itself goes ah out of the business then what will happen
+there is a data security aspects somebody else is reading or my data or not there is
+a competence issue that what i am working with whether that organization is competent
+enough defining is is another big problem because everybody want to define that agreements
+on their favour and there is still not very standard approach of doing that across the
+different provider and consumer getting value from charge back that is also things which
+we look at that how i get values of my charge backs and these all will evolved as a cloud
+computing all right so cloud computing is a model for enabling
+ubiquitous convenient on demand network access to a sheared pool of resources or configurable
+resources such as network server storage application services that can be rapidly provision and
+released with minimal management effort or service provider interaction so it says everything
+right so this is the typical nist definition ah which we all everybody try to ah what we
+say follow or respect so it says that any the huge pool of resources can be provisioned
+with minimal management referred and provision and deprovision when i use it and when i have
+to release it both can be ah done in a very seamless manner
+so this is this if you look at what we have discussed or from your ah background computing
+knowledge this is something which is not came up suddenly on on the table what it there
+it evolved from some of the things like rather we look we want to look the computing world
+in a different way and try to facilitate computing to different type of purposes with some basic
+modeling basic model like the pricing model sla model say there is a security model management
+things that means we want to place different things and so that a computing as service
+can be provided like i want to provide computing as a service
+so what we will do with this we will end our todays talk and we will continue with this
+thing with the different other aspects of the things so this we will do another aspect
+i want to mention that some of these ah materials some of these figures etcetera are ah taken
+from different resources we have i have tried to put all the references and acknowledge
+those things we want to do it specifically for academic ah purpose only for that for
+our landing mechanisms ah no no no where it anything commercially using all
+so what we do we with this we end our todays talk and in the coming lectures we will look
+at other other aspects or different aspects not other aspects different aspects of cloud
+computing ah how it goes and what are the different what are the different properties
+advantages disadvantages and like that thank you

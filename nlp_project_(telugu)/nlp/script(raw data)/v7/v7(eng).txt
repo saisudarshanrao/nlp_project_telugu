@@ -1,0 +1,300 @@
+virtualization concept we have already discussed some of these aspects in our previous lectures
+but i thought that we will have some few more slides on it ah one of the core concept so
+virtualization is one of the core ah concept or one of the core prime mover or having these
+cloud computing for which the cloud computing is existing today and if you see this virtualization
+is not a new concept it is already there we many of our are used to virtualize we virtualize
+a a linux system over a window system a window system over a linux system so i have a some
+sort of a virtual realization of the things right
+and if you look at that other end we are used to different other resources like networking
+etcetera so i have a we can have a virtual lan or v lans which is pretty popular which
+we have ppn virtual private networks and so and so forth so virtualization is there and
+this cloud computing architecture technology tries to exploit this a feature for giving
+different services of cloud so as as we have seen this iaas or infrastructure has a service
+so from the subscriber point of view what what the subscriber gets so access to virtual
+computers right network accessible virtual storage network infrastructure components
+like firewall configuration services etcetera so as as if i i being a subscriber i get access
+to a virtual machine right or set of machines and then i may want that particular machine
+ah with particular storage and other configurations so i dont know where it is how it is configured
+but for me if through this particular that interface it is it is a type of machines which
+i am looking for even it is it is possible that i i have a combination of this virtual
+machines along with a particular backbone network and realize a a network infrastructure
+for my purpose right so this is this is that what subscriber gets for me and how uses and
+what i pay for it is basically typically per cpu hour gb data stored may be on a hourly
+basis network bandwidth consumed on a particular rate network infrastructure used that how
+much ip address which are the routers etcetera and value added there can be value added services
+like i monitoring automatic scaling and type of things are the things which are value added
+services so providers theoretically have a large pool
+of virtual machines that means if i am a cloud service provider i say that these are my flavors
+of virtual machines which are i am having at my thing right ah and then i i say that
+if you want a set of virtual machine then i go on ah provisioning it right and usually
+these are into different categories though theoretically i can configure any of the virtual
+machine but in practical sense it is it is under with specific configuration and etcetera
+like i say that i have vm with very low things like in case of a incase of our meghamala
+iit kharagpur we have a virtual three three type of virtual machines one is iit kgp small
+vms which has a four gb ram with twenty gb ah hard disk space and these are the other
+processing etcetera we have a iit kgp large which has a eight gb ram and so on and so
+forth which have a we we have a iit kgp extra large which has a sixty gb ram say these are
+the three flavor now based on that based on my backbone resource
+availability i have a mix and match of the things not only that the type of vms i will
+have is also dependent on type of request i get on this vms right if i have a heavy
+request on only the smaller type of vms then i want to provision that smaller type of vm
+much more than the higher things and so and so forth so these are the considerations which
+come into play right so like in this case a has a access to vm one to vm two right whereas
+b has a access to vm three where the client c has a access to v m four to v m six where
+the providers retains vm seven through vmn for its other users so that can be that can
+be ah a modeled and go on doing that and this these are typically done like that so ah so
+if you look at the iaas component stack and scope of control iaas components stack comprises
+of hardware operating system middleware and applications layer so these are the typical
+thing so operating system is built into two layers lower the most privilege layer so if
+we look at the more code to the operating system is occupied by the virtual machine
+monitor or vmm which is also called the hypervisor right higher layer is occupied by the operating
+system running within the vm called a guest operating system
+so the as we have seen that ah we have a like in this case in the middle if you see that
+i have the bare metal hardware where the cloud provider have a total control cloud subscriber
+has practically low control over that i we have a hypervisor right or vmm or virtual
+machine monitor where the administrative control of the cloud provider are cloud subscriber
+can basically request a request for vm etcetera to this hypervisor and then ah we have other
+layers like guest os middle ware like java etcetera application like mail and crm and
+other type of things where the subscriber has the total control in case of a iaas where
+the provider does not have any control or does not provider does not control it ah for
+the thing right so this is the way it goes on so if we ah if we look at it the type of
+control at the upper layers are moved to the subscriber and type of control at the lower
+layers are moved to the provider side so in iaas cloud provider maintains total
+control over the physical hardware and administrative control over the hypervisor layer subscriber
+control the guest os middleware and the application layers which are which over the subscriber
+subscriber is free using providers utility to load any support operating system ah things
+so if the if the provider ah provides the support the subscriber can load any guest
+os subscriber typically maintains complete control over the operation of the guest operating
+system in each vm so though the subscriber once it loads it has the total control over
+the guest os like if i if if the cloud provider is providing me some linux os and hypervisor
+an allows me to load linux or windows etcetera so if i load some flavor of linux then i have
+a total control over that particular thing iaas components stack and other thing the
+hypervisor uses hardware to synthesis one or more virtual machines or vms is an efficient
+isolated duplicate real machine subscriber rents access to vm the vm appears to be subscriber
+as actual computer hardware that can be administered that is powered on off peripherals configures
+via commands send over the network etcetera so that it it because what i am having as
+a subscriber is primarily interface with the provider and i can go on communicating with
+that so typically if you look at a typical architecture
+so there are several components over at the top is the cloud manager there are different
+cluster managers which are which are at the second level of the things and below that
+is the computer ah manager or cms right and the cm is basically at the has this hypervisors
+and different type of virtual machine immolated over the things right so we have at the cloud
+manager and the data object storage which is the muster data base of keeping track of
+the things then at the lower level we have a persistent local storage like so that means
+hm the storage which does not go have a when the cloud provider is not there when the vms
+are ah not used or shut down and type of things so if we look at that three level hierarchy
+of the components h have one is the top level is responsible for the central control like
+the cloud manager the middle level is responsible for management of the management of possibly
+large computer cluster and may be geographically distance from one another so if you look at
+this cluster manager it is it is it is managing this large clusters which maybe geographically
+spread and the third is the bottom is responsible for running the host computing system on which
+virtual machines are created so these are running this host computing system where the
+vms are created right so this is typically three layer of control subscriber quarries
+and comment generally flow into the system at the top are forwarded down through the
+layers which either answer quarries or execute commands
+so iaas cloud architecture ah cloud manager can be geographically distributed within a
+cluster manager computers manager is connected by a high speed network so this is this ah
+if you look at the cluster manager these are all connected through a high speed ah network
+so now if you look at the quickly that operation of the different things so what we have cloud
+manager at the top then the cluster manager then the computer manager which manages the
+individual things right so if you look at the cloud manager duty is the public access
+point of the cloud that is the first thing so whenever somebody access the cloud in the
+public where the subscriber sign in for accounts manage and resources they rent from the cloud
+etcetera cloud manager has the mechanism authenticating the subscriber whether the authentication
+mechanisms generating or validating access credential with the subscriber when the communication
+with the vms like when it it is basically the of the whole system top level resource
+management so for subscriber request cloud manager determines if the if the cloud has
+enough free resource or to satisfy the thing so subscriber resource on the things so cloud
+manager maintains a meta data information so if i request for a particular vm or a set
+of vms which are not available on the cloud then it becomes a ah the cloud manager has
+to take a call so it is a it is it manages at the subscriber level there is a thing called
+data object storage or dos dos generally store the subscriber metadata as we are talking
+about the user credential operating system etcetera dos devices usually single ah is
+single for a cloud so what we say that the particular dos service
+is for a particular cloud so it a it maintains a ah what we say registry or a cataloging
+or a metadata service for that whole cloud so it is the binding block of the ah of the
+whole thing that what are the services available whether the free resources available etcetera
+are all updated in the those so if we look at the cluster manager that this ah middle
+level so it is responsible for operation of collection of computers that are connected
+via high speed local area network right so that is the ah it manages the lower level
+computers cluster manager receive resources allocation commands and quarry from the cloud
+manager at the top and calculate whether the part or all of a command can be satisfied
+using the resource of computers in the cluster that means ah when the cluster manager gets
+a request it checks that whether the its available resource with within the cluster whether it
+is able to satisfy the things and accordingly it says a appropriate signal to the things
+like so that it can accept or cannot accept and type of things cluster manager quarries
+the computer manager for the computers in the cluster to determine resource availability
+returns message to the cloud manager that mean it it it becomes a it ah middle ware
+or a agent between the cluster manager and the cloud manager if the if you look at the
+operation there it get the direction for the cloud manager and then instructs the computer
+managers to perform resource allocation reconfiguration de allocation of resources and etcetera etcetera
+is cluster managers connected to a persistent local storage that means it is the so called
+coat uncoat ah non volatile storage when the ah particular virtual machine is ah shut down
+deprovision or some issues come ups so that it has a a local storage into the things
+so the pls provide persistent ah disk like storage to the virtual machine ok so it is
+as if persistent disk like the same things are there so the data when you next time log
+in it will be available with you so look at the if we look at the operation of the cloud
+manager ah at the lowest level in the hierarchy cloud manager runs on each computer system
+uses concept of virtualization to provide virtual machine to the subscriber so cloud
+manager is basically providing the ah vms so it is the to the subscriber this providing
+vms it is it is responsible for that computer manager maintains status information including
+how many virtual machines are running etcetera etcetera so it maintains the status information
+as of now how many virtual machines are running also cloud manager uses command interface
+to hypervisor to start stop a stop suspend reconfigure virtual machines so it also same
+the if there is a need to the ah computer manager so all this what we see is virtualization
+place important role right so how this virtualization is made and what are the aspects etcetera
+thing we will try to see quickly in the subsequent slides so virtualization is a broad term it
+can be a virtual memory it can be virtual network it can be virtual storage etcetera
+so anything which can be virtualized is a virtualization aspect our primary focus is
+the platform for virtualization right virtualization basically allows one computer to do the job
+of multiple computers right by sharing resources of a single hardware across multiple environment
+so that is important so that means i have a bare metal then i create different machines
+or virtual machines which can cater to the things but at the at the back end my same
+bare metal is running now this this becomes a very tricky so because suppose you are running
+if you are having the your bare metal on particular ah environment and then you are running one
+machine on windows one machine guest os on linux one machine or some other things etcetera
+etcetera then there is a problem of issue of how this ah say ah instruction set of this
+guest os will be running on the hardware at the end so that there are issues of like that
+there are issues of application sizing there are issues when the vm says that i require
+more resources or i want to release other things how it manage and so and so forth so
+of we look at the hardware so if it is a no virtualize system a single os controls the
+all hardware platform resources if it is a virtualization system it takes the possibly
+ah it makes it possible to run multiple virtual containers on a single physical platforms
+so i can have multiple virtual containers which which can run on or which can be plugged
+into a single physical ah infrastructure so ah we are we are somewhat experienced with
+this virtualization so virtualization is a way to run multiple operating system and ah
+user application on the same hardware so that is virtualize so i can i can have two different
+operating system on the same that means i say i virtualized one this os out of this
+right so run both windows linux on the left of so
+how is it different for dual boot dual boot also we are doing that once windows etcetera
+here in case of virtualization this ah different os or all the os s are running ah together
+right or simultaneously the oss are completely isolated from each other right they are completely
+isolated from each other ah in case of a true virtualization now another ah important aspect
+of things which come into play is the virtual machine monitor or hypervisor so a hypervisor
+or a virtual machine monitor runs the guest os directly on the cpu right so that means
+i have a guest os and i am i at the at the ah as my which has been immolated or installed
+by the ah subscriber or running on the or its application on the of the client and then
+the hypervisor is responsible to execute this or ah run this guest os directly on the hardware
+at the back and the things so this works if the guest os uses the same instruction set
+of the os host os right if it is a different instruction set then there is a instruction
+translation should come into play right so there are several issues as as depicted by
+popek and goldberg that three goals of virtual machine architecture are there one is that
+equivalence the vm should be indistinguishable from the underlying hardware so as if the
+virtual machine is running on the hardware itself so what we say it is equivalence or
+resource control the vm should be incomplete control of the virtualize resource
+so if you give me four gb machine thirty gb sixty gb hard disk and so and so forth that
+i should have to complete control over the thing right as a subscriber and efficiency
+most vm instruction should be executed directly ah on the underlying cpu without involving
+the hypervisor so that that is another thing so efficiency will increase if the most of
+the virtual machine instruction should able to execute directly on the underlying cpu
+without intervention of this other involvement the hypervisor so these are the aspects which
+need to be looked into when we have virtual machine monitor or hypervisor influence which
+allows me to emulate vms so again in the same ah work these popek and goldberg describe
+and also give a provided a formal proof of the requirement of the cpus instruction set
+to allow these properties to happen like to allow truly virtualization happen at the iaas
+level the main idea is classifying these instruction into three different thing one is privileged
+instruction which ah which cause a trap in the executed in the user mode there is a sensitive
+instruction which ah change the underlining resources that is doing io ah or changing
+the fact that the guest os is running on the bare metal etcetera a sorry ah means first
+of all changing the io or the page page tables or observe the information indication on the
+current privilege level so if you if you remember you are operating ah if you are basic architecture
+things so i have different level of operations like level zero level one and so and so forth
+so more the lower the level as i go more on the more closer to the bare metal so it all
+depends that your virtualization at which point it operates more the higher level then
+more latency will come into play more translation will come into play so we need to look into
+the things that what level operations i need to do specially when we do iaas type of ah
+operations and the former class of sensitivity instructions
+also called controls sensitive or latter call are behavior sensitive operations right so
+what ah this popek and goldberg so that if we can run a virtual machine with all the
+three desired property if the sensitive instruction are a subset of a privilege instruction in
+their work they have shown that ah this sort of things are true and we can realize a true
+virtual machine so the same thing ah or thus whatever we are discussing so we have this
+vms and this hardware over this this virtual machine monitors is running and its allows
+us to emulate this different ah vms right so it can be your ah so some where other this
+whatever the guest os running on the vm the instruction set need to be converted which
+can be understood by this hardware right so that is the our bottom line so whether it
+is whether the whole vmm will have a total abstraction or also have some sort of ah overlapping
+with the things ah that that depends on whatever the implementation
+so if we look at the approaches typical approaches to virtualization so if you see the evolution
+of this virtualization one is what we say first general a first generation or full virtualization
+so binary rewriting so it is software base vmware and microsoft supports this so whatever
+the virtual machines are generating a dynamic translator rewrites to the ha underlining
+hardware and so and so forth in case of a second generation virtualization or para virtualization
+cooperative virtualization so it is a cooperative virtualization the guest os or the is modified
+and vmware xen as it so it basically if you look at here so it penetrates little bit into
+the vm that means that is modified on the things in case of a third generation or what
+we say silicon based that is hardware assisted virtualization unmodified guest vmware and
+xen on the virtual aware ah on the virtualization aware hardware platform so now your hardware
+platform is a virtualization aware so it is hardwared hardware assisted virtualization
+so in this cases this hardware platforms are not aware of this virtualization whatever
+is done done by this your hypervisor so there are ah different things in in case of full
+virtualization for generation offering so dynamic binary translation of the source code
+as we have seen all the hardware is emulated including the cpu to popular open source emulator
+many of you might have seen qemu and bochs these are the two popular emulator which ah
+change that open source full virtualization there are advantages of emulation layer like
+you dont bothered about that two things are separated ah total vm portability like i can
+put take the vm from one to another so put total portability because only the vmm i need
+to understand those there are drawbacks this hardware emulations comes with a performance
+vice whenever you want to emulate a hardware etcetera performance vice in traditional x
+eight six architecture os kernels expect to run on the privilege ring zero and now you
+want to run them at a higher level and that that need to be there should be more latency
+and other things come into play so we need to pay for that or what we need
+to there is a performance price for that things in case of para virtualization guest os is
+modified and thus run kernel level operating system at ring one or ring three that is much
+higher level guest is fully aware of how to process privileged instruction privilege instruction
+translated to vmm is no longer necessary guest operating systems uses specialized api to
+talk to the vmm right so it is para that means your vmm is penetrating to use some sort of
+a some into the ah ah your ah vms so that now it is not full translation but i have
+a para virtualization the performance increases and this things is becoming pretty popular
+so in case of para virtualization recompiling of the os kernel is required because there
+is penetrating into the things installing of para virtualized drivers are required so
+that it it takes care at your guest os level the third one is a hardware os running on
+a ring zero vmm uses processor extensions like in case of intel vt or amd v and type
+of things to interpret the privileged things hardware assisted virtualization ah removes
+many problems that take place in writing a vmm into a writing a vmm into a rather it
+is a big challenge so that it is hardware assistant so that means you go directly over
+thing is totally fully compiled in doing so you lose that portability of the vms right
+it becomes a more tricky issue because you need to migrate to something which understand
+that hardware pros it allows run unmodified os right you the oss need to not be modified
+cons is the speed and flexibility is issues that when that your flexibility you lose and
+the speed it depends when the migration etcetera comes into play so with that we will we will
+just touch upon some of the one more aspects of the things what we say network level virtualization
+so that now what we are tooking as the hardware now we are looking at the network level that
+means i need to emulate a network over a virtual network over a given network right so typical
+approaches what we have ah seen is that ah in case of a network technology that is whether
+ip base or atm base layer which layer of virtualization is there there are architectural domain like
+network resource managements spawning network and type of things level of virtualization
+which is node level or full virtualization of the things like ah if you look at suppose
+i have i have a network like this then i can emulate a virtual network like this or i can
+emulate a virtualize network like this right so this is my base network so it i can have
+two type of virtual network on the thing over and above of this thing so i emulate ah a
+ah virtual network why to virtualize now ah what people say that ah not only internet
+in your own networking paradigm is becoming paralyze like you dont have much in go space
+hard to come with a one size fit all type of architecture in number of cases like you
+have a network configuration and fits everybody so why not to create something that all sizes
+fit to one instead type of scenario so that is the ah things what we want to do so testbed
+for future and there is that is and any futuristic working on the network protocols and etcetera
+require a testbeds for that putting a whole networking things may be a challenge so i
+can have a ah sort of a virtualize network and ah this is not suddenly came into play
+we have lot of things which are already in play that is a virtual private network active
+and programmable networks overlay networks these are already in place for ah several
+years and this is being emulated over that and if you look at there are different type
+of aspect like business model architecture design principle design goals and those are
+the things and there are different aspects of those ah like infrastructure providers
+service providers end user brokers these are the different players and they have a very
+ah complex relationship between ah between each other that how things will be there and
+this business model is not only true for network virtualization it is true for other sort of
+virtualization as well and if we look at that architecture so if
+i have that infrastructure provider then i have a service provider one which is have
+some sort of a virtual network emulated from this like making active some of the networks
+etcetera and i can have other type of service provider two sp two emulating other type of
+networks as well so i can emulate different variety of network on a basic underlying network
+so i can realize different networks into the things so so these are also becoming very
+popular so having say not only having servers like i want to conduct a particular testing
+over across the ah across ah across the geographical space so not only i want this servers into
+the ah place i also have a particular network infrastructure into play right then those
+ah then if you want to have those type of things then i not only require the virtualization
+at the iaas level or the server level virtualization i also require a network level virtualization
+into play and making this overall i can have a virtualized ip infrastructure into place
+right so we will continue our ah discussion in in in our subsequent lectures ah we will
+stop here today thank you

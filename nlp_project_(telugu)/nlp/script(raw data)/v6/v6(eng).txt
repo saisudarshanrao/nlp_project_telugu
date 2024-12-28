@@ -1,0 +1,305 @@
+discussion on ah on cloud architecture and specially see some aspects of a cloud taken
+is cloud like one of the aspects is virtualization right so as if we if we look at remember that
+are there lectures we are discussing on different type of a service models and also we have
+different type of deployment models in cloud namely public private hybrid and ah community
+cloud different aspects and all all sort of services can be hosted in different type of
+deployment models right
+so in case of a public cloud ah the as the name suggests it is available for public at
+large so it is it is ah you anyone can purchase that and it is somewhat omnipresent across
+the internet right some of the very popular examples are ah google app engine microsoft
+azure ibm cloud amazon ec two and many others right many many others clouds are there right
+so what happened that we have this public cloud and enterprise or individual can subscribe
+this public cloud right subscribe this public cloud over the internet and can have that
+ah its services over this in so the cloud infrastructure is provisioned for open use
+by general public ah organization enterprises and anyone who can pay and use the things
+there are definitely some ah legal policies we need to be conformed too so it may be owned
+managed and operated by a business academics government organization or some combination
+of them right it exists in the premise of the cloud provider
+so typically the physically the public cloud is at the csps premise or premises right so
+that means ah that means ah whatever the computing infrastructure storage infrastructure and
+other type of things are there those are residing in the csps ah of the cloud providers premises
+not at the ah private or not at the users premises so that is one one aspects of the
+thing and ah in public in public setting providers computing and storage resources are potentially
+large right so it it is serving to all communication links can be assumed to be implemented over
+public internet services and the cloud service serves a diverse pool of client and may be
+out of them do not all faithful clients there can be some attackers hackers etcetera ecetera
+so it is it is open to anybody who can subscribe a typically it can have a service provider
+and you can ah there can be different type of users at the things right so what are the
+typical features workload locations are hidden from the cloud one one of the clients that
+is one of the ah major thing like you dont know where the where your virtual machine
+is you dont know where the where your actually the data is residing which server which location
+and with whom it is residing so it is it is all are hidden so as for as as if you you
+are not very stringent on the legal and policy matter about the security and other aspects
+though it is fine that you dont care so long your services are there there are risk from
+multi tenancy that means your logically or or it may be ah theoretically always possible
+that you are computing your storage where it is residing somebody elses things are there
+now if it is your somebody ah with some organization or some person who is who is not very faithful
+or we are not very comfortable so that two things two some two different user can reside
+ah can work on the same things
+so in other sense there is a risk there is this what we say multi tenancy and there are
+risks of multi tenancy because i i dont know that where things are there where there though
+whether there is a underlining channel to access my data services and other type of
+things so there is a risk of ah multi tenancy
+so single machine can be shared by workloads by any combination of subscriber subscriber
+workload maybe co resident with the workload of the competitor or adversaries right in
+ah so it introduce both reliability and security risk so organization considering use of onsite
+public cloud should consider network dependency right so whenever suppose iit kharagpur things
+that all is ah all is ah or some of his labs will be running on public cloud so that so
+that ah our overall maintaining and etcetera reduces cost of maintenance or overall load
+on maintenance etcetera reduces
+now there one first dependency is the network so it will be always available the network
+connectivity should be always available up to a mark so there is one dependency there
+are limited visibility and control over the data regarding the security so i has we are
+mentioning that i have limited visibility of the ah data i dont where the data is and
+how it is secured only thing what i have is a some sort of a sla or some sort of a mou
+between the provider and provider and me that this data is secured and so and so forth
+so there is a issue of elasticity or illusion of unlimited resource availability right so
+ah this is when you use public cloud this is pretty fine because i theoretically i have
+infinite amount of elasticity like if i have i if i need more computing power it will be
+provision if i one more other storage things it will be provisions when i dont require
+i releases it or de provision it so those things are feasible so theoretically infinite
+ah scaling up scaling down is possible another important thing is the low upfront
+cost to ah migrate into the cloud right so if you want to make a private cloud of your
+own then you have to purchase the thing make provision where it will be housed install
+software and etcetera run it test it there are issues of maintenance so and so here the
+up front there is no there is very low up front cost you pay and use it restrictive
+default service service level agreements so there is a now whenever we purchase something
+there is a somewhere other we need to confirm to the ah that standard or what we say coat
+uncoat restrictive service level agreements between the provider and the consumer
+so most of the cases we need to follow the terms and condition ah provided the provide
+ah like whatever is given by the provider unless you do for a large scale deployment
+where you negotiate at special rate with special sla and type of things right but normally
+for a small institution and public at large we need to confirm to the whatever is being
+provided
+so totally other means the other aspects of the form the public is the private so you
+have your own cloud and you have all your resources which can be ah working on it right
+so the cloud infrastructure is provision for exclusive use of a single organization comprising
+a multiple consumers or business units like a same organization say iit kgp private cloud
+my catering all the things which in the iit departments etcetera may be owned managed
+and operated by the organization or it can be outsourced by a third party managing resources
+out here but it is in your premises under your jurisdiction under your network control
+and type of things and it may exist on or off premises also right
+so that there are usually on premises or i can say i have a private things or what we
+say outsource private cloud ah where i can at the off premises but never the less it
+is jurisdiction or my policy stipulated rules or the organization rules which driven so
+there are some of the open source and other public cloud one is that eucalyptus pretty
+popular there are open stack ubuntu enterprise cloud amazon epc virtual private cloud vmware
+cloud infrastructures suite microsoft eci data centers and so on and so forth
+so there are several things which gives private cloud into the thing so contrary to popular
+belief private cloud may exist off premises and can be managed by third party so i i ah
+not only means take the responsibility or i basically i want to maintain the control
+over the whole thing but i basically may ah off premise or i installed out with the help
+of a third party to a separate thing also right there is two private cloud scenarios
+one is on site private cloud which is which is the de facto or which is immediately come
+to which comes to our mind when we are talking about anything which is private applies to
+private clouds implemented as the customers premises
+another is the outsource private cloud like i have a private chunk of the things which
+is outside outsource out of my premises but never the less it is private to me right so
+applies to private cloud where the server side is outsource to the hosting company wherever
+its it is there so in case of on site private cloud the security perimeter extends around
+both the subscriber on site resources and private cloud resources so i your security
+perimeter or your ah legal control is basically have the encompass the private cloud right
+security perimeter does not guarantee control over private cloud resources but the subscriber
+can exercise control over the other resources over the resources like so that it it its
+a incase of onsite like whatever the private cloud it is there i can have a overall control
+over the whole resources of the private cloud
+so there are some issues characteristics pros and cons of the maintaining on site private
+cloud one is the network dependency on site private right subscriber so it is dependency
+on the on your internet network should be here subscriber still needs a it skill i i
+my organization is meeting my own cloud or the organization meeting own cloud so there
+should be some sort of a skill to maintain that workload location are hidden from the
+ah client ah even if my clients are different differ in my subunits that also this is hidden
+from the client like even ah if if it is within the premises or ah on site private cloud that
+actually infrastructure is hidden from the cloud where client is my own organization
+things or or my own clients are on the other side risk from multi tenancy again the same
+issues of within things also come into play data import export and performance limitation
+there can be issues of data import export because there are lot of data which will be
+going out and going down
+so that on demand bulk data import export is limited on onsite private clouds network
+capacity or real time critical processing maybe problematic because of network limitation
+potentially strong security from external threats usually if it is a private within
+your network boundary all your network other features come into play like as i was mentioning
+in some of my in one of my earlier lecture that iit kharagpur has has installed or has
+developed a private cloud for its research purpose what is meghamala but it is within
+my network premise so what whatever the network security parameters or features are there
+for iit kharagpur is also applied for this infrastructure
+so what what happens that it has a potentially strong security features significant to high
+upfront cost to migrate into the cloud so that is another issue right whenever you have
+a private cloud so there is a significant cost in installing maintaining and there is
+may be a significant cost in migrating the whole thing into the private cloud your own
+say there is a limited resources all if you have your thing that anything you want to
+augment you need to purchase install not only that even to need to properly interoperate
+with the existing things right so in doing so you have ah a times you have
+a limited resources like ah suddenly i can go up or down on the resources so as onsite
+private cloud any specific time has a fixed computing and storage capacity that can be
+sized to corresponding correspond to the anticipated work loads and cost so what we do whenever
+i i install a private cloud so i i have a estimate of the things like storage computing
+etcetera and then keeps some provision like of it is a buying that the staff at x amount
+i or i install one point five but ah that is the thing that i am limited to that x one
+point five x amount of the thing
+so there is another variant of the things i keep this as private but i ah outsource
+it so that maintaining installing etcetera i dont ah means organization dont take care
+but it is outsource it so outsource without source outsource private cloud has two security
+perimeters one implemented by the cloud subscriber whoever is there on the right and the implemented
+by the provider so one this is a perimeter so what is happening it has a some sort of
+a channel which which connects this to this private cloud which is outsource in some other
+premises right or maybe a subset of a cloud service provider right
+so i have a channel which hooks into the things but the whole staff at that end is a private
+to me right so ah the security of data and processing conducted on the outsource private
+cloud depends on the strength and availability of both security perimeters and of the protected
+communication so what we require that my infrastructure to be secured at the external things another
+the channel where by the network channel or the network communication link which i talk
+which over which i communicate or over which my organization communicate with the cloud
+should be secured in a in up to a particular level at up to a particular level or expected
+level
+so there are again some consideration pros and cons of using outsource private cloud
+one is network dependency ah that again i am dependent on how things will be connected
+workload location are hidden from the client again those type of issues it is from multi
+tenancy the where i am hosting my private cloud other people may be hosting also the
+private cloud so data import export and performance limitation same thing exist potentially strong
+security from external threat because of you have still have a private ah things it is
+not fully public and not all people are jumping on your cloud but never the less you are maybe
+sharing some infrastructure may be more thereat at the much more ah lower level at the highest
+level and so on
+but at the higher level you are not a allowing anybody to enter into the things modest to
+significant up front costs to mitigate clouds so those are same as whatever we are having
+at the things and most of the cases you need to negotiate in terms sla with the provider
+who is providing your or the third party who is provide you this cloud extensive resource
+availability is maybe an advantage because this is not limited i am taking a chance so
+i request for increase it may it is very much possible to increase at the other end provided
+the ah provider is not out of resources usually they have lot of resource at their backbone
+the so one side is private one side is public another typical type of cloud is community
+cloud right so it basically tries to as we have discussed it basically tries to serve
+a particular community per say it is usually can operate in a public or private both and
+it basically cater to a particular community which has a some some what same domain of
+operation or same focus of of ah interoperating right
+so cloud infrastructure is provision for a exclusive use of a specific community of consumer
+from organization that are shared concerned that means they have a light minded concern
+that is there can be same missions security requirement policy compliance consideration
+etcetera it may be owned managed operated by one or more organization in the community
+so a third party or some combination of that it may exist on or off premises ok so it can
+be a on premises off premises there are several ah community cloud and which are being provided
+by different service provider
+so there are there can be one thing that like there are several abc organization there x
+y z organization and there can they can form different set of combinations like abc xyz
+can be one community a with x y can be another community and so and so forth so there is
+possibility of bringing things together there is also possibility that i a community can
+be can be existing as some point of time at the some other point of time it may not existing
+i may be a organization can be more than one community of the things like ah like our day
+to day life i may be a part of my office group also i am part of my say residential ah community
+right
+so there can be different policies and etcetera things are there and but it is the the primary
+objective is that there are like or same type of concerned or same type of workflow it may
+so happened that this community ah making them in a single community will help in productivity
+right so ah there are again lot of characteristics pros and cons etcetera the the participant
+organization are connected by a links between the boundary controllers and allow access
+through their security parameters like whatever the firewall policies or that type of boundary
+policies are there access policy of a community cloud may be a pretty complex because you
+can have number of community so at way what way access which you dont access whether there
+is a leakage of information i get some information someone community pass it to the other community
+so these need to be properly restricted
+so policy specification techniques like role based access control attribute based access
+control are there like based on my role i access some data right and like other form
+of deployment models here also we have network dependency subscriber still need some it skills
+because he need it need to maintain with ah different community things
+workload location are hidden from the client again data import export performance limitations
+there are issues on that like how between the community ah things etcetera whether the
+data or within the community when multiple subscriber come in to play that how things
+will be there and number of cases this communities can be loosely coupled so that things becomes
+more critical to manage potentially strong security from the external thing because still
+you are in the one community so that you have a better resistance to the external threats
+based on your community policies along with your own policy
+high variable up front costs to migrate to the cloud so there is a as as we have seen
+in case of a truly private cloud there is a high variable upfront cost to the migrate
+of the migration to the cloud because it is not publicly available so you need to create
+the things and there can be different sort of ah things like there are three organizations
+forming a community with a some boundary controller where with a private subscriber and those
+issues come into play community cloud can be on the premises or we the community cloud
+can be ah out of means premises that means the community cloud can be ah out source as
+we have seen that in case of a private cloud
+so once we outsource the network dependency workload location are not known or hidden
+from the clients risk from multi tenancy data import export and performance limitation issues
+this will come into play potentially strong security from external threats as we have
+mentioned that is still you are on the community modest to significant upfront cost if it is
+outsource there are lot of loads are ah taken up by the outsource this is in organization
+so there is a there is a chance that the overall loading maybe overall ah upfront cost will
+be much less than if you are maintaining in premises and theoretically if you are outsourcing
+extensive resource ah availability are possible so ah apart from this as we can theoretically
+see or practically see that i can have a cloud which is combination of all those things right
+so i can have private public community things specially with the public private cloud i
+can have a cloud which is combination of such ah more than one type of deployment models
+the cloud infrastructure is a composition of two more distinct cloud infrastructure
+private community or public
+so i have three type of things and then i have i i want to realize a cloud which has
+a combination of a these three things why this is important first of all its all all
+depends that what sort of ah uses pattern i am having like some of the uses pattern
+what i am having is more critical or more vulnerable to security threats that i want
+to keep as a more private right i dont want to i have a appropriate network ah boundary
+or network perimeter security to be implemented on the things there are some of the resources
+which may not be i dont i may not want those to be so much secure or i dont care about
+all those security of the all those things and that can be made some of the things public
+like if i say if there are practice sessions for ah say computing labs for students so
+the level of security is much less than the when i am keeping say student records or students
+examination things etcetera right so though same type of operations may be there but one
+i could have ah gone away with and an outsource this and gone to the public cloud to do it
+all right and where as the other one ah even it is economical i want to keep those as my
+private things now i I can have a private combinations right as number of cases what
+sometimes it happens that you do something with the private and you require some resources
+to be provisioned due to sudden increase of the things then suddenly in a private cloud
+increasing the resource provisioning or purchasing etcetera is a long process so you purchase
+the thing on a public cloud from a from a for a short period of time so long your process
+is an place and this goes to the things
+so the infrastructure community that remains unique entities but are bounded together in
+a standardize or proprietary technology enables data and application to be portable this is
+important so portability not only with respect to data whenever i have this private public
+community all together or a combination of two or more together then there are the issue
+of intra operative come into play like the data which is working fine here when i take
+some application from the other whether we still workout the things
+so the both data and at times the applications suppose your application was running on a
+private cloud with some resources now you provision a vm which basically goes to the
+public domain now the type of applications whether the application wants need to be resized
+or there are portability issues of the applications need to be looked into so exam there are examples
+of hybrid cloud some of the popular windows azure capable of hybrid cloud vmware v cloud
+there are capability of hybrid cloud and as i have mentioning that there are several ah
+other providers which which helps us in which provide this type of things
+so the hybrid cloud is composed of two or more private public etcetera they have a significant
+variation in performance reliability security property depending upon the type of cloud
+chosen to build a hybrid right if it is a if it is a community cloud or public and etcetera
+it will there will be difference in the performance different in the security features etcetera
+so a hybrid cloud can be extremely complex that is one one of the major things like suppose
+your ah suppose your ah a particular application is going on and need to run over over a combination
+of public and private cloud then the overall ah underlining architecture maybe very complex
+so that your application runs seamlessly over the things so at times this private clouds
+can be extremely complex a hybrid cloud may change over time with constituent clouds joining
+or leaving there is another another another big factor so what we are what we are trying
+that ah it may so happened that you bind a hybrid cloud with your own private cloud and
+two other public clouds right so now what now it may so change that some
+of the public cloud may go may wants to disconnect base based on your terms and conditions and
+subscription ends they dont want to again resubscribe and they have a different pricing
+model even some of the thing may go red right there the organization the cloud may not be
+there so in that case your you need to there can be joining leaving and joining of new
+things or sometimes you may require more resources so you add some more ah public or community
+cloud into the things all this becomes extremely complex phenomena to handle right so that
+means over time ah the constituent clouds may leave or joined and making the whole process
+pretty complex right
+so now ah what should i choose right what should my should be my deployment model is
+another ah big question right it all it totally depends on on your requirement like if i have
+a small organization or individuals my public cloud may be a good solution so long my business
+is not going up front on the ah something which compiles me to go to the to a own private
+cloud there are other constant like i I do business for somebody else right i I have
+some other subscriber base or client base now this client may be interned looking for
+a things like suppose i have a storage provider data storage provider
+now i may either i have a all this storages on my premises or i outsource this resources
+or provision this resources from other other public clouds now it may be so happened that
+the the my clients which may be something miss and critical clients like may be a financial
+sector or defense sector they want that no no no it it cannot happen you need to have
+your own thing so it all depends that how what should be my way of looking at it right
+i can have a combination as we have talking about hybrid i can have a combination of private
+public and so forth based on my requirement or whether i can classify my application into
+different things my data my applications into different categories and then i say that this
+bunch can go to the private this bunch can go to the public this can go to the community
+and type of things
+so managing all those things is a another big challenge or ah for the organization or
+institution to handle that so ah with this we will we close this lecture and we will
+continue our lecture on ah other aspects of cloud computing ah in the subsequent talks
+thank you

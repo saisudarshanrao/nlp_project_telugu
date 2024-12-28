@@ -1,0 +1,256 @@
+aspects of cloud so today what we are trying to look at that what is the underlining technology
+or underlining protocol which binds together as we have discussed that there are in cloud
+there are various type of services or x a s anything as a service type of anything as
+a service type of model it service model it was so we need to have some way or other a
+a ah protocol which allows that to interpolate interoperate between different things
+now if you look at ah whenever whenever a user or a customer or a consumer of cloud
+is taking the service of the cloud provider so it is independent of where how this cloud
+is hosted the provider ends how the user client is accessing the things so it is more of a
+service oriented architecture what we are what we basically implement in this cases
+so web service oriented architecture or web services as we have as we know that allows
+us to interoperate between loosely coupled heterogeneous services to achieve some expected
+output right so all all this ah all this this type of service exchanges or service given
+architecture the basic one of the basic component or one of the basic building block is xml
+all right so what we will discuss today maybe one or two lectures that the basics of xml
+what i understand that most of your most of you are used to xml or you know what is xml
+but for making it little those who are not accustomed or making that looking at all sorts
+of ah viewers and listeners of this particular lecture series we want we will discuss a very
+basics of xml and try to see what are it properties and how it allows us to interoperate right
+so ah if we look at xml so it is acronym xml as evolved from a ah employee for a growing
+family of software tool xml standards and ideas so what we will try to see that what
+are the different properties of xml how it is what is how it allows that to interoperate
+what are the different type of person or what are the type of other technologies which are
+there in the xml so it is extensible markup language right
+we are used to ah html hypertext markup language which are primarily used in this world of
+internet to visualize document all right so xml is a extensible markup language and unlike
+ah html which is more of a data display or data representation language your information
+representation language html is more of a data transformation language right so it allows
+us we will see your it allows us to achieve interoperations right so the syntax for encoding
+is text based so words phrases numbers so it is a readable a text based syntax and xml
+is when well written using printable uni code character right no explicit binary data character
+encoding issues etcetera right it is extensible xml lets you define your own elements like
+ah like data types like unlike html those who are used to html or though as have seen
+the html we have a predefined set of tags right ah
+whereas in xml you can defined your own elements or a own tags so its a it is within a constant
+of syntax rule definitely you you can define within a context of a syntax so so and it
+is also sometimes referred to a universal format right a syntax rule nco that all xml
+processing software must identically handle given piece of xml data so it is universal
+so if you have a xml data and xml processing software or say xml parser it will be able
+to handle all sort of xml university right so that is that is the typical basic characteristics
+of xml which mixes mix it ubiquitous so if you can read and process it so anybody
+else this is the means basic local so if you if at the if the ah if one and if you can
+read and process it so that everybody else can read and process the same data so it is
+if i look at a simple example like we have taken from resource so that there are some
+of the things like there is a xml declaration like we says the version and there is a will
+come slowly we will come to those things there is a xml name space and there are definition
+of different elements and type of things here all right
+so these are different xml tags if you if you see this tags are user defined right tags
+can be user defined that means i can define my own ah tags that i this part orders or
+description or part number these are all user defined tags right so ah unlike html where
+the tags are predefined you cannot define your own tags here you can defined your own
+tags now if you if you defined your own tags the next things which come into play that
+there can be you need to say that how tags how things are defined like i say i define
+a tag called table now whether i am referring to the table whether this table refers to
+some furniture classes or group in the in the category of furniture or the table is
+basically in the category of word processing or phrase it right
+so that is important right i need to know that if i define a tag or if there are i am
+using table one from this furniture category and another for the word processing category
+then i have to define the things or how the other end knows that what i am looking for
+so there is a concept of xml name space which which primarily allows us to define my own
+user defined elements and other things so ah if we if we look at the xml document it
+is hierarchical and its a structured information all right so if i if i look at this document
+so it is a part order all right it is the top most node which is a xml namespace that
+it says that part order is of this namespace and it has ah different ah levels or it looks
+it basically hierarchical and we generate a xml tree right
+so xml comes with this property of ah a hierarchical structured information which can be represented
+by the xml by a xml ah tree so again if we ah come back to our basic premise or basic
+definition so it is simple unlike html like html but not quite so simple html is very
+veni[lla]- type so strict syntax rules to eliminate syntax error so xml has a very strict
+ah syntax rule syntax defined define structure hierarchical and name structural element element
+names and it is self describing data so its say the i can have a my own data which is
+self describing it is extensible unlike html vocab is not fixed in case of a its ah xml
+you can define your own vocab or tags or elements and that means that you can basically extend
+this data design for distributed environment right you
+are like html it is designed for distributed environment its say it is able to talk to
+or it able to communicate or interface or interoperate with different ah different systems
+in a or different nodes of a distributed systems so ah can create your own language of tags
+and elements ah sorry it can have data all over the place can retrieve and use it reliably
+so that means it is distributed can mix different data types together unlike html so html can
+do it but in xml i can have multiple sources and mix them and generate a ah a another data
+out of it its it is like that i day i from the two
+repositories i i take different component of data and finally generate another data
+which is a mix of these two things as they html xml allows me to do that it is it is
+extremely helpful in different cases like you are getting two type of data one form
+from your say for in academic institution one data i am getting from academic section
+other maybe from all managements centre that regarding students and then i i want to club
+this data and try to find out some things like i i want to find out that who is the
+ah best all rounder of this particular semester or particular batch or particular year so
+i need to look at different student activity data student academic data and other type
+of ah data impossible and then generate a another data set
+so this is sort of ah distributed diverse data set on the fly how you can basically
+interoperate how you can mix them and generate a things is this xml is one of the is helpful
+in this type of cases ok so its a mix of different data types together now other exercise is
+ah how to process xml data so one thing what we have seen it say tree type of structure
+now in order to now unlike other standard like html or where you have no user defined
+things so you know the not only the syntax they are elements etcetera defined
+but here in this case i need to first of all find out that what are the what are the in
+number of element what are the whichever is user define and i need to find out that what
+they mean in the first place so in order to process this data suppose i have a data like
+this taken from some ah internet resources like file transfer date is so much type of
+things is interbank and so much amount transit id account id and type of things ah different
+type of transactions so it is like like ah bank transactions some are internal that is
+within the bank and some are interbank or between different banks so then how to process
+these data so for this i need to first of all extract
+the information from the xml data all right then my processing will be going on it is
+basically ah enveloped in a xml type of language and then i have do extract these and process
+it using some application some sort of a ah tool that i have to extract the data that
+what we do is doing through a xml parser so xml parser processing ah model so what it
+does that xml data the parser it parsers through the parser and there is a parser interface
+than xml based application on the other side so xml data then the processer it extract
+the things that xml based applications are triggered all right
+so the parser must verify the xml data is syntactically correct so what is the role
+of the parser first of all the parser should verify the xml data is syntactically correct
+so there is no syntax error in the data secondly such data is said to be well formed right
+if it is a syntactically correct it is a well formed xml so the minimum requirement to be
+a xml is this it should be well formed so that it is processable right i can process
+these data the parser must of processing if the data is not isnt well formed all right
+so that is stop processing and throw an exception exception to the xml based application
+so that if it is a ah a now if it is not ah a well formed that means it is if it is syntactically
+ah not a correct data so if we look back the xml processing rule ah including different
+parts they so there is a concept called d t d that is document type declaration so what
+is important for any xml data ah like we have seen in case of a data bases like relational
+data bases so what is what to what you have to do you basically define ah a table right
+or multiple table so where where the data is different or in form of records or different
+rose or tuples what we say now this in order to define this table we
+need to define the structure of the table or what we say schema of the table all right
+so that if there are different ah variable of this table then which variable is which
+schema and type of things we need to define right so in case of xml also as these are
+user defined ah structure and it is hierarchical and i dont know that if you define a particular
+element then what are the level of other elements and what are the type of elements are there
+and thats why they are also we define we need to define some sort of a schema ah or in this
+previously it is used they that ah stuff called document type declaration
+so first of all you need to declare the document type now based on the document type if it
+is a in the then the rest of the data is there so one one ways one one of the work of the
+parser is to look at whether it is syntactically correct like you have syntactically other
+than in to look at whether it follows that particular document definition right or if
+it is i say that ah syntactically correct is a well formed then if it is following that
+ah that schema or document type definition then say it is a valid one valid xml
+so the while getting the xml data the parser consult this d t d if it is syntactically
+correct to say that the the xml is valid for this particular type of operations details
+looking for so ah so we have xml parser d t ds another internal entities like the parser
+processes the d t d content identifies the internal entity and checks that the each entity
+is well formed correct so intern it checks that whether each entity is well formed there
+are explicit syntax rule for d t d content well formed xml must be correct here also
+right so so what is there are explicit syntax rules for d t d content so the well form xml
+must be correct in this respect also the parser then replaces every occurrence
+of entity reference by a referenced entity all right so does the recursively within the
+entities so it reference entity by the referenced entity it replace so that the it is entity
+reference the resolved data object is then made available to the xml application so when
+when it goes to this xml application if we if we just remember this ah previous picture
+then by that time it has done its well form checking syntactical checking and also the
+checking with the d t d ah that is what we can say some sort of a ah validating the particular
+document before closing it to the xml application so in xml ah processing there can be ah external
+entities right here it was internal entities ah previously what we have seen that is internal
+entities means that d t d is defined here only or the schema is defined here so external
+entity is referred by a url so it it basically referred to external ah structure or schema
+to look at the entities so the parser processes the d t d content identifies the external
+entities and tries to resolve them all right the parser then replaces every occurrence
+of the entity ah reference by the referenced entity and does so recursively with all entities
+like with the internal entities for the external also it find outs and go on replacing this
+but what if the parser cant find the external entity due to may be due to firewall blockage
+etcetera that depends on the application ah and parser type there are two type of xml
+parser one mass retrieve all entities one can ignore them if they cant find it
+so it ah it based on the what is your basic policy or um processing rule for this parsers
+so accordingly we have two type of xml parser one wise say validating parser that means
+must retrieve all elements and must process all d t d content all right we will stop processing
+indicate a failure if it is cannot right so what we are what we are trying to say that
+in case of a validating parser it should it should conform to this schema definition or
+the d t d content right non validating parser will try to retrieve all elements defined
+in the entity but will cease processing the d t d content in the first entity if it cant
+find all right so it based on validating parser or non validating parser application behavior
+will depend on the parser type definitely so it the application how it will work is
+based on that what sort of parser so we add on something more like here xml
+data then ah parser then it goes to the parser interface to the xml application all right
+so d t d ah is linked with the parser which gives relationship behavior dependency on
+parser nature so these are the things who is the d t d ah provides to this parser for
+making for checking for validating well formed and validating
+right so there are some special issues characters and character sets all right so like ah the
+xml specification defines what characters can be used in whitespace tag and like you
+cannot use ebcidic character nel as whitespace tag what if you want to include character
+not defined in the encoding character sets right so there are different ah way out for
+handling this sort of ah character sets all right so ah the xml provides some ah mechanisms
+to handle this sort of ah character sets now ah how do i define language dialects finally
+finally what we are trying to look at is basically how to how to define an xml document and how
+it can basically interact with each other right so as as ah as we know that in a service
+oriented architecture we are having three major components right like ah consumer provider
+and ah a registry or type of services right or um some some sort of arrays to depository
+now whenever there is a communication between this different ah service provider service
+consumer service registry what we need to look at is is that how this data communication
+how this communication go go will be executed in a ubiquitous way like as we you know that
+this is a scope messaging maybe one mechanisms which is primarily and xml document all right
+like soap w s d l uri d i all are basically xml documents correct
+so ah if you look at so two ways to doing that xml document ah type declaration part
+of core xml spec xml schema new xml specification which allows for stronger constraints on xml
+document so what you have looked at is d t d now two thousand one ah the xml schema or
+xsd has been defined so it is a ah higher version of on spec its a new new spec of defining
+the schema of the structure of the xml document and ah one basic or fundamental difference
+is there other than they primarily do the major same type of job one is that xml schema
+is written in xml all right where as d t d ah is actually written in a different way
+so that now my handling of the schema in xml data goes hand in hand
+so adding dialect specification implies two classes of xml one we call well formed an
+xml document that is syntactically correct right so what we say its a well formed xml
+right and where as there is a thing called valid xml all right so xml document that is
+both well formed and consistent with the specific d t d or accessed your schema all right so
+this these are called valid so it should be well formed along with a ah that it is it
+is basically conforming to the schema that means it is a valid scheme
+so all valid xml document are ah well formed so what d t ds and other schema specify allow
+elements and attribute data hierarchical nesting ah rules element content and type restrictions
+so this is a schema or thing specified so it is not the data so the xml schema or the
+d t d does not content any xml data right information is contented in the xml file but
+the structure is defined here so this this makes a unique property like whenever there
+is a two organization a b one to exchange information so what they are looking for is
+first of all this would agree upon the structure of that exchange protocol right like ah if
+if ah say for example iit kharagpur is having a say data transfer say ah payment gateway
+or some payment transfer payment ah interaction with bank or any financial organization what
+is important that first of all the structure of a student data and the at the at the iit
+kharagpur in and the the way they stored in the state bank they are or any banks state
+bank or bank or anything any bank they are should be that the banking organization there
+should be agreement for that date for that need i dont require
+any data to be exchanged right so that is that is the basic duty of the thing right
+so for that i dont require any data to be exchange what we required is more of the structure
+to be exchanged and incidentally exchanging structure is not that critical all right so
+the data there are privacy issues there are issue of maintenance costs towards collecting
+maintenance of this data if you just like that say or then it is basically ah go on
+out of your hand so thats why the data has lots of issues but if i say that see in iit
+kharagpur this student structure is like this so student schema is like this all right i
+dont tell that how many students are there what are the properties
+but the school students schema is like this then then if i am if it is interacting with
+some other organization the schema wise integration is possible so thats why allows element attribute
+names hierarchical nesting rules element content type restrictions ah yeah schemas are more
+powerful than d t ds they are often used for type validation or for relating database schemas
+to the xml models right schemas are more powerful much more powerful than d t ds all right
+they not only keep the structure but that can be used for different type of things like
+using the schema i can create a database table and then i can transfer the data ubiquitously
+among the ah among the two things right so this this gives a extra handling to this this
+schemas so these days we are ah primarily using schemas and schemas ah plays a important
+role in handling this sort of inter operations between different parties so if you look at
+the example d t d as a part of a documents so there are document type elements transfer
+this there is a some other type of ah elements right
+now if you look at this this is not exactly following the truly the xml file or xml document
+all right whereas in case of a schema it is represent as the xml document right and there
+can be external d t d like document like there is a foo dot org something dot d t d so it
+refers externally ah when it needs to referring so this allows us ah you know ah two referred
+to some others d t d and see that what sort of data is coming right suppose i i want to
+look at i am consuming a data from another provider and i want to know that what sort
+of data is coming up like whether they are ordered in a particular fashion whether there
+is a typical hierarchy so at the other end i can i can do external
+d t d and check it that what sort of data so that allows me allows my parser to filter
+and extract the data i need for my end to process so my objective is that i am getting
+a data from a source i want to filter it extract the portion of the data i want to do and may
+may need some transformation like i want to change the unit from centigrade to fahrenheit
+or meter to feed and type of things ah even that require some transformation that i can
+do at the this end and then i put to my applications which work on this we will continue our discussion
+on xml some other means some other properties of xml to what to what to see that how these
+are useful for this interoperate is interoperation and how these are useful for for realization
+of a cloud especially the software as a service type of models
+thank you

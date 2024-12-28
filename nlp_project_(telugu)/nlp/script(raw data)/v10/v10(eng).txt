@@ -1,0 +1,305 @@
+aspects which which is sometime considered as one of the major prime mover or building
+block of cloud computing that is web services and service oriented architecture so we look
+at that what exactly it means and try to have a overall a overview of the whole thing so
+that it will help us in understanding the that how it build up and how things are going
+on now what are web services there are several definitions you will find in the literature
+and the internet so like if you three the w three c web service architecture requirement
+specification it says that after application identified by a uri whose interfaces and bindings
+are capable of being defined described discovered as xml artifacts ok so this is a very versatile
+definition
+so it is it is it what it says that the software applications which are identified by uri and
+whose interfaces are bindings are capable so that you can define you can describe you
+can discover and all is underlining xml base languages right where as if you look at the
+microsoft define as a programmable application logic accessible using standard internet protocol
+right other definition an interface that describes a collection of operation that the network
+accessible through standardized accessible messaging and software components that can
+be spontaneously discovered combined recombined to provide solution to the users problems
+and request right so from this different sort of definitions what we can see one thing is
+there that is a it is a xml based phenomena right
+so xml as as you know its a more of a data transformation language it helps in interoperability
+and helps in application talking to each other right so web services are those type of services
+which are available on with can be defined in the can be accessible through a standardize
+uri and the it works on a message exchange type of protocol which is based on xml right
+so what what it gives us it gives us a you can any application can now to application
+can talk to each other i am not bothered about what is at the background of the how things
+are there i only bothered about where the where the service is available and how i can
+talk to that services right i dont bother about the background processing of the things
+this also helps in bringing this legacy application to talk to other applications right so this
+is a different way of looking at the things those who are costumed with client server
+type of protocol which are more tightly bound this is more loosely bound and can talk to
+each other very easily and if you look at the if i say the genesis of the history of
+the things so there are different aspects which helps or which promoted this web services
+one is definitely structured programming which evolved to a next suggestion of object oriented
+programming distributed system as we have discussed in in our previous lectures
+so it is it played a important role there is another concept of electronic data exchange
+between two entities primarily to business entities when they want to interface that
+data for some particular purpose of course this world wide web which allows the whole
+whole computing phenomena to connect to each other right we backbone internetworking primarily
+driven by internet protocol so these are this is also a one of these you know so this all
+this component has all these components have now has has what we say facilitated that this
+development of web services or the evolution of web services now distributed computing
+we are i am not going any detail because there is we have talked in detail talked in length
+that in our previous lectures so one of the issues whenever we are doing distributed computing
+interoperability right one of the one of the major issues other than it working another
+type of things
+so ability to communicate and share data with software from different vendors and platform
+very interesting phenomena and which which allows this whole world of or whole gamut
+of application to talk to each other that is it it allows you to communicate share data
+software from different vendors to platforms limited among conventional proprietary distributed
+computing technologies like in case of it is more limited scopes we need to expand it
+there is another major development means in this area is the edi or which is popularly
+known as electronic data interchange that computed to computer exchange of business
+data and documents between companies using standard formats recognized both nationally
+and internationally that means its a its primarily a business data or formats but the formats
+are recognized by the both the party
+so i understand that the other the organization a system understand the what the what the
+what type of message is coming from the organization b and then go was exchanging the information
+used in edi is organized according to a specific format said by both companies participating
+the exchange so it is important that the that the format is somewhat pre known or pre defined
+that how or exchange that format or the schemize exchange previous to the exchange of the data
+so other party knows that what sort of data is expecting there are lot of advantages like
+one is that lower operating cost because you dont bothered about when exchanging data less
+data more accuracy because this data exchange phenomena loop is not there so no data entry
+less human error so directly getting the data from the other things increase productivity
+obvious and faster trading cycle if there are multiple companies are working together
+that is one aspects
+now all those things have somewhat facilitate this as we are discussing is that the web
+services so it take the advantages advantages of object oriented programming by enabling
+developers to build application from existing software component in a modulars approach
+right so it helps developer to develop applications and from the legacy things or the existing
+thing and help them to different component to to develop different components in a modular
+approach
+so transform a network that is internet into a library of programmatic components available
+to the developers to have significant productivity gains so if we look at its a its a as if the
+library of different programming components are there now you can go on building things
+to make your application now right so one if we will take a type of example that this
+how this services are exchange is maybe maybe what we can think of is our this online reservation
+or booking systems right i book a train or say flight so i have the i i gave means when
+i do when we use we use a particular address or uri to to access that and then i then those
+in turn say any any that particular travel portal is not having neither having flights
+non having hotels or non having anything right so it in turn talk to the other different
+airlines services pull the data showed to the user its selects and then the if the booking
+process goes on then it goes on a it through a credit card debit card net banking so other
+services are called
+so if you see there is a multiple services are being amalgamated in a proper choreographic
+way to execute a job so my job was to select say a bisd possible flight based on my budget
+and my convenience of time and and i want to do it online so i go for a some sort of
+a travel portal or what we say some sort of a broker right which allows me to see different
+airlines stuffs and then i select my suitable things go on paying through my credit card
+debit card etcetera and then the i get the ticket generative right so see neither this
+airline organizations they are directly i am not directly i am not directly hooking
+to them they are being connected neither this your credit card or debit card service provider
+have any clue that whether you are buying a ticket etcetera so it what it says that
+if it gets a request in a particular form it will acknowledge it and then replied it
+one particular form right
+so that means it is a some sort of a xml type of message exchange going on to the things
+so this allows us to generate different type of mega applications of using some different
+type of different software components or different type of other application
+so i can mix and match and doing the things and it goes on a choreographic way list minimal
+environment of the different service provider and it goes on like that so if you see that
+improve distributed computing interoperability by open non proprietary standard that can
+enable theoretically any two or more software components to communicate so its a its a it
+uses a open standard and facilitated interoperability as you are discussing about xml and type of
+things so it provides capability similar to those of edi like exchanging data but a simpler
+and less expensive to implement like i dont have a any sort of a pre defined agreement
+on the data format etcetera right rather somewhere other i i should able to know that where the
+things have goes on configured to work with edi systems can be configured to work allowing
+organizations to use two technologies together or to phase out edi while adopting web services
+right
+so unlike www or world wide web separate visual from non visual components right so this is
+important one is that what i visually see right another is that what goes on the background
+so this two things are separated like if you look at the xml type of things xml is more
+of a data transformation language so it is not a data visualization language in other
+since html as we know is more of a data visualization or it displays the things right so xml more
+work on interoperability type of issues and how did i will be exchange and so and so forth
+so xml with styling of the xml plus styling of the data will help in visualize or displaying
+the data so unlike our normal http base things which displays the thing it is more of a data
+representation or data transformation type of a stuff
+so interaction maybe either through browser or through desktop client like can be java
+swing python windows etcetera that can be there are different type of desktop clients
+we can interact with the things or the common interface is the to the interfacing with the
+browser now it web service if we look at it tries to address three major component interoperability
+like lack of interoperability standard in distributed object messaging so interoperability
+between two software between two parties firewall traversal
+now as which as the web service is piggyback on different internet or tcp ip based protocol
+primarily http protocol so it has a it can basically over the firewall most of the our
+firewalls are http at port eighties are allowed
+so web service can still work on the things so corba and dcom used non standard ports
+web service is use mostly the http so its not only the not only http it can use others
+but primarily http most firewalls allows post eighty http leading to easier dynamic collaboration
+that is one major aspects and complexity web service is its a more of a developer friendly
+service system correct so it is the much easier to develop so use open text based standards
+like one of them is xml which allows components written in different language or different
+platform to communicate right
+so this is important so and it can be implemented incrementally right not on the day one everything
+has to be done are other deployment also can be done in incrementally rather than all at
+a once which lessens the cost and reduces organizational disruption from the abrupt
+switch to the technologies right so these are the different aspects another major aspect
+is organization can run that legacy software and tools if if you have proper web service
+interface for the external world
+so if we just try to again sum up that communication via open standard like like it can be http
+it can be smtp or any type of any other tcp ip application layer protocol meant be there
+process of xml messages framed using soap will we will come to that what is soap and
+so it is a it is primarily xml based messaging system and one of the popular thing is the
+soap described its messages using xml schema how the how how my data is organized i can
+basically describe is using a xml schema provides an endpoint description using wsdl will again
+see what is web service description language
+so where where where my service is launched how it is configured so i we can do at a wsdl
+and basically i can publish and discover using a uddi so my web service description discovery
+and integration it is it is facilitated by the uddi so one way of implementing is that
+we have xml as the base
+and we have three major component soap wsdl uddi right so this is the things all are w
+three c complaint and use the de facto xml based things will just look into that how
+things works so a a purchase one example so as if purchase order goes then credit check
+reserve inventory credit response inventory response consolidate result and return to
+the invoice right so there are different parties like credit service inventory service po services
+and so and so forth and those are being can be choreographed to service the things it
+is taken from a resource but what it tries to so that i can provide different type of
+services i can compose it and create a larger application bringing different type of application
+into the things this application when when choreographs to other type of things or integrated
+if other fashion can give some other type of services
+now looking at this whole thing so it has we evolved to another this overall architecture
+what is the web service web service oriented architecture so on so ibms created a model
+to show web service interaction which is referred to as service oriented architecture consisting
+of a relationship between three entities so with this basic philosophy we have three entities
+one is a service provider one is a service requestor or service consumer and there is
+a service broker right or there is a something which allows this consumer and provider provider
+requestor or consumer and the broker and to talk to each other to find where the services
+are there etcetera so if we look at this figure a very popular figure available in you will
+find in different literature
+so i have the service requestor of the consumer which wants to get the services to the from
+the service provider but the how the service requestor find that where it services will
+be there so there is a registry where it can find out right that which type of services
+are there if i if i try to look at a analogy those who have seen our because now a days
+this is more or less obsolete our telephone directory right which comes from telephone
+exchange so there is to be things like at the beginning that yellow pages white pages
+and so and so forth so where you find that where to find what rather the directory itself
+is tell you that by how to search for a particular thing like suppose you are looking for plumbing
+or base or something
+so you you go and lift through the thing etcetera so it it acts as a directory service right
+or registry service so that type of things is here also require which basically have
+a registry service so it is there are service description out here the service request are
+finds the this its request it a required service from this registry service using that wsdl
+and uddi and then basically bind with the service provider it goes for it can find more
+than one service provider and so and so forth a service a provider once a new service is
+launched on when say service is updated it is basically it publish the service in the
+registry so that perspective buyer or perspective consumer
+consumer requestor can find that where that this type of services are there so you can
+find that this is a triangle where different component works and if anything is developed
+based on this type of things what we say that it is a service driven or service oriented
+architecture so if we look at that web service models model that the roles of service architecture
+this service provider owner of the service platform that hosts access to the things service
+requestor business that requires or the consumer which wants consume and service registry searchable
+registry of service description where service provider publish their service description
+so three major operations in the service web service architecture one is publish to publish
+the service provider things find the consumer finds the things consumer find the things
+and bind once is find and it finally binds with the service consumer with the provider
+and one of the popular one of the popular component is there there are others also that
+is one is the which are the component one is the xml extensible markup language i believe
+all of you know if some of if you if not you should go through any standard book or even
+w three c tutorial swearing find a good tutorial on xml so its uniform data representation
+and exchange mechanisms it provides soap simple object access protocol right a standard way
+for communications over using again xml wsdl web services description language uses xml
+and its a standard meta language to describe the services offered and uddi universal description
+discovery and integration specification its provide its helps in building of the registry
+service
+and a mechanism to register and locate web service applications so we can look at other
+way as we have seen that the client goes for the client queries the registry to locate
+services registry refers to wsdl document where the description is there the client
+access wsdl document wsdl provides data to interact with the web services and client
+send soap message to the soap message request to the provider and service returns from the
+soap message from the response so that is someone binding the things and these are the
+different components this underlining thing is the it works on the internetworking or
+the our standard network protocol tcp ip or osi so this is the backbone over that soap
+messaging the description the uddi uddi can be a static publication or it can be a dynamic
+publication and then there are other things like wsfl that is flow management and type
+of things
+so for other type of aspects and there are three other component it goes and in an one
+is the quality of service that what sort of service they are giving a qs management issues
+that how whole thing can we manage and then the security aspects like in doing so whether
+there is a security breach how to things what will be the security policies whom to trust
+and all those components will be there xml i am not dealing in details its a standard
+generalized method of a generalized markup language is evolved from it is a extensible
+markup language primarily used to describe data and it helps in separation of content
+from the presentation and xml document can be optimally refer to a by a dtd the more
+popular is xsd that xml schema definition language schema definitions so that whether
+we can the scheme is defined
+so in case of xml tags are not predefine so you can define your own tags unlike html enables
+cross platform communication in web services so this is a typically a xml thing like it
+describes so sorry it is a html thing like it basically shows that how a particular person
+is address or personal email address etcetera the contact of a person called jhon does defined
+and if we use these html in standard any browser so it will show like this however if i want
+to look at the same thing as a xml so you see this is more of a data description right
+so it is a name it is a address this is the country phone email and type of things right
+so this is a xml type of things this not any presentation so for representing i need to
+we need to do a something so as we were discussing three major component one one of the thing
+is soap is a more of a messaging protocol like simple object access protocol format
+for sending messages over the internet it is xml based w three c complaint and stateless
+and one way uses mainly http as the what we say transport protocol this this transport
+protocol should not be mix up with our tsp ip transport protocol this is transporting
+this web services
+so a here the http access the carrier protocol so there are different building block i am
+not going to the netigretty of the things so how a soap building blocks are there so
+transport protocol is over all envelope then the mime header is there then soap envelop
+soap header and soap body and there are fault and deification scenarios but all are xml
+base so message structure it goes on a soap envelope and goes through this its piggyback
+on this transport basically become a envelope and become a pay load for this transport protocol
+in this case http again i am repeating this transport protocols dont be mix up with our
+tcp ip or osi protocols
+the soap request goes like that if you see this is a post message in our http stuff and
+the soap message in this case its goes for a get a particular stock price and stock name
+particular may be the ibm and so and so forth and the response is again again if you see
+that http response and it response with a again a value since this is more of a structured
+way of exchanging data it does not say out can be displayed for the display unit to have
+a html type of a stuff so why soap its are there are other technologies which are not
+could not do this type of application to applications soap is a platform neutral choice simple xml
+wire format places no restriction on endpoint implementation of the technology so that you
+can run your legacy things etcetera
+there are major three characteristics this is extensible neutral and independent so this
+this is exactly suited for our distributed applications talking to each other and type
+of things and there are different usage models one can be rpc like message exchange or soap
+specification allows any kind of body content so and so forth and there as other security
+aspects we are not going to that we will talk about these when you talk about out security
+the other one is the wsdl web service description language so it it allows to it is again xml
+xml base w three c complaint allows to describe the language
+so it has different structure that what will be port type where the where the how can be
+defined that where the particular services will be enabled and a web things will be there
+the message types of message and so and so forth how this winding process will go on
+between the service provider and the consumer so it is a sample wsdl message it is a binding
+see that see it is a it is a soap message with the wsdl the soap message is bind with
+these things that means the the description over that the messaging of the soap message
+how the data is transferred over that things is bind between the source destination or
+any like from requestor to the udd from the registry registry to the consumer and so and
+so forth
+finally we have the uddi universal description discovery and integration it is a registry
+service right so a frame work to define xml based registries so that all these meta data
+informations are there where from the this consumer or the requestor look for that particular
+bases and how to binding with that particular provider and so and so forth
+so it is service provider registry and requestor just if you remember the previous couple of
+slides before so you little bit what we say that orientation is different so the registry
+the service provider publish it requestor finds it and binds with things so it plays
+extremely important role for keeping the whole things working together so if you the same
+thing it basically publish another thing the consumer search and go on and go on binding
+with the provider there are several benefits any registry service gives a very benefits
+of keeping the data in a particular format so there it can be search so making it possible
+discover right business from the millions of currently online
+so you can finding how to enable say connectivity with the preferred business and so and so
+forth we will not go to the detail of the things this security will so in security becomes
+a another important aspect of soap a aspect of web services it works on a vertical line
+as we have seen in our previous some of the one of the previous figure and it has different
+components right like web service policy trust privacy secure conversation federation and
+authorization and different type of components so this becomes a integral one there are other
+things like management and qas which also works
+so what we try to what we are try to see in this particular lecture is that that this
+web services and service oriented component service oriented architecture is a plays a
+important role in setting up this cloud the whole cloud process if you see that ias if
+we paas or saas say or anything as a service so it its basic building block is the web
+services the all this phenomena of web services of publish bind and find bind and publish
+find and bind this also is true for the things whenever we have cloud services so i need
+to basically look at the who is the service provider and consumer i need to know that
+where the service is launched and type of things right
+so this this is p extended inappropriate way to realize this cloud services so it plays
+a this development of web services and service oriented architecture has played a important
+role in bringing this cloud as a this cloud computing as a viable things so we will stop
+here today and we will continue in our future lecture with other aspects of cloud computing
+thank you
